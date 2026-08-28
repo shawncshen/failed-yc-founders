@@ -1,0 +1,14 @@
+---
+description: Never attribute git commits or PRs to Cursor Agent
+alwaysApply: true
+---
+
+# No Cursor commit co-author
+
+Never add Cursor as a commit or PR co-author.
+
+- Do not add `Co-authored-by: Cursor`, `Co-authored-by: cursoragent`, or any `cursoragent@cursor.com` trailer.
+- Do not add `Made-with: Cursor` or similar attribution trailers.
+- Do not use `git commit --trailer` for Cursor attribution.
+- Commit author must be the user only (`Shawn Shen` / their configured git identity).
+- If a commit tool or environment injects Cursor attribution, strip it before finishing (amend only when amend rules allow; otherwise create a new clean commit or rewrite as the user directs).

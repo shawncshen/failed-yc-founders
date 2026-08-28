@@ -19,9 +19,9 @@ const BATCH_ORDER = [
 
 const state = {
   companies: [],
+  companiesBySlug: {},
   founders: [],
   syncedAt: "",
-  view: "founders",
 };
 
 function $(id) {
@@ -29,7 +29,7 @@ function $(id) {
 }
 
 function formatSynced(iso) {
-  if (!iso) return "—";
+  if (!iso) return "–";
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return iso;
   return date.toISOString().slice(0, 10);
@@ -73,33 +73,73 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-function matchesCompany(company, query, batch, industry) {
-  if (batch && company.batch !== batch) return false;
-  if (industry && company.industry !== industry) return false;
-  if (!query) return true;
-  const haystack = [
-    company.name,
-    company.one_liner,
-    company.all_locations,
-    company.slug,
-    ...(company.tags || []),
-  ]
-    .join(" ")
-    .toLowerCase();
-  return haystack.includes(query);
+function companyForFounder(founder) {
+  return state.companiesBySlug[founder.yc_company_slug] || null;
 }
 
-function matchesFounder(founder, query, batch, linkedin) {
+function nil() {
+  return `<span class="nil" aria-hidden="true">–</span>`;
+}
+
+function displayText(value) {
+  const text = (value || "").trim();
+  if (!text || /^\.+$/.test(text) || text === "—" || text === "–") return "";
+  return text;
+}
+
+function companyMission(company) {
+  return (
+    displayText(company?.long_description) ||
+    displayText(company?.one_liner)
+  );
+}
+
+function missionCell(text) {
+  const mission = displayText(text);
+  if (!mission) return nil();
+  return `<div class="mission-text" title="${escapeHtml(mission)}">${escapeHtml(mission)}</div>`;
+}
+
+function industryCell(industry) {
+  const value = displayText(industry);
+  if (!value) return nil();
+  return `<span class="industry-tag">${escapeHtml(value)}</span>`;
+}
+
+function roleCell(founder) {
+  const role = displayText(founder.current_headline) || displayText(founder.yc_founder_bio);
+  if (!role) return nil();
+  return escapeHtml(role);
+}
+
+function companyCell(founder) {
+  const name = escapeHtml(founder.yc_company);
+  const linked = founder.yc_url
+    ? `<a href="${escapeHtml(founder.yc_url)}" target="_blank" rel="noreferrer">${name}</a>`
+    : name;
+  const batch = displayText(founder.yc_batch);
+  if (!batch) return linked;
+  return `<div class="company-stack">${linked}<div class="batch-under">${escapeHtml(batch)}</div></div>`;
+}
+
+function matchesRow(founder, query, batch, industry, linkedin) {
   if (batch && founder.yc_batch !== batch) return false;
   if (linkedin === "yes" && !founder.linkedin_url) return false;
   if (linkedin === "no" && founder.linkedin_url) return false;
+  const company = companyForFounder(founder);
+  if (industry && company?.industry !== industry) return false;
   if (!query) return true;
   const haystack = [
     founder.full_name,
     founder.yc_company,
+    founder.yc_batch,
     founder.current_headline,
     founder.yc_founder_bio,
     founder.yc_title,
+    company?.one_liner,
+    company?.long_description,
+    company?.industry,
+    company?.all_locations,
   ]
     .join(" ")
     .toLowerCase();
@@ -114,63 +154,74 @@ function founderNameCell(founder) {
   return `<span class="plain-name" title="No LinkedIn URL found">${name}</span>`;
 }
 
-function renderCompanies() {
+function groupFounders(founders) {
+  const groups = new Map();
+  for (const founder of founders) {
+    const key = founder.yc_company_slug || founder.yc_company || founder.full_name;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(founder);
+  }
+
+  return [...groups.values()].sort((a, b) => {
+    const a0 = a[0];
+    const b0 = b[0];
+    const batchDiff =
+      (BATCH_ORDER.indexOf(a0.yc_batch) === -1 ? 999 : BATCH_ORDER.indexOf(a0.yc_batch)) -
+      (BATCH_ORDER.indexOf(b0.yc_batch) === -1 ? 999 : BATCH_ORDER.indexOf(b0.yc_batch));
+    if (batchDiff !== 0) return batchDiff;
+    return (a0.yc_company || "").localeCompare(b0.yc_company || "");
+  });
+}
+
+function render() {
   const query = $("q").value.trim().toLowerCase();
   const batch = $("batch").value;
   const industry = $("industry").value;
-  const rows = state.companies.filter((company) => matchesCompany(company, query, batch, industry));
+  const linkedin = $("linkedin").value;
+  const rows = state.founders.filter((founder) =>
+    matchesRow(founder, query, batch, industry, linkedin),
+  );
+  const groups = groupFounders(rows);
 
-  $("result-meta").textContent = `${rows.length} of ${state.companies.length} companies`;
+  $("result-meta").textContent = `${rows.length} of ${state.founders.length} founders · ${groups.length} companies`;
   $("empty").hidden = rows.length > 0;
 
-  $("rows").innerHTML = rows
-    .map((company) => {
-      const yc = company.url
-        ? `<a href="${escapeHtml(company.url)}" target="_blank" rel="noreferrer">${escapeHtml(company.name)}</a>`
-        : escapeHtml(company.name);
-      return `<tr>
-        <td class="company">${yc}</td>
-        <td class="batch">${escapeHtml(company.batch)}</td>
-        <td>${escapeHtml(company.industry)}</td>
-        <td class="blurb">${escapeHtml(company.one_liner)}</td>
-        <td class="blurb">${escapeHtml(company.all_locations)}</td>
-      </tr>`;
+  $("rows").innerHTML = groups
+    .map((founders) => {
+      const lead = founders[0];
+      const company = companyForFounder(lead);
+      const span = founders.length;
+      return founders
+        .map((founder, index) => {
+          const shared =
+            index === 0
+              ? `<td class="company group-start" rowspan="${span}">${companyCell(lead)}</td>`
+              : "";
+          const mission =
+            index === 0
+              ? `<td class="mission group-start" rowspan="${span}">${missionCell(companyMission(company))}</td>`
+              : "";
+          const industryTd =
+            index === 0
+              ? `<td class="industry group-start" rowspan="${span}">${industryCell(company?.industry)}</td>`
+              : "";
+          const rowClass = [
+            index === 0 ? "company-group-start" : "company-group-cont",
+            index === founders.length - 1 ? "company-group-end" : "",
+          ]
+            .filter(Boolean)
+            .join(" ");
+          return `<tr class="${rowClass}">
+            ${shared}
+            <td class="founder">${founderNameCell(founder)}</td>
+            ${mission}
+            ${industryTd}
+            <td class="role">${roleCell(founder)}</td>
+          </tr>`;
+        })
+        .join("");
     })
     .join("");
-}
-
-function renderFounders() {
-  const query = $("fq").value.trim().toLowerCase();
-  const batch = $("fbatch").value;
-  const linkedin = $("flinkedin").value;
-  const rows = state.founders.filter((founder) => matchesFounder(founder, query, batch, linkedin));
-
-  $("fresult-meta").textContent = `${rows.length} of ${state.founders.length} founders`;
-  $("fempty").hidden = rows.length > 0;
-
-  $("frows").innerHTML = rows
-    .map((founder) => {
-      const company = founder.yc_url
-        ? `<a href="${escapeHtml(founder.yc_url)}" target="_blank" rel="noreferrer">${escapeHtml(founder.yc_company)}</a>`
-        : escapeHtml(founder.yc_company);
-      const role = founder.current_headline || founder.yc_founder_bio || "—";
-      return `<tr>
-        <td class="founder">${founderNameCell(founder)}</td>
-        <td class="company">${company}</td>
-        <td class="batch">${escapeHtml(founder.yc_batch)}</td>
-        <td class="blurb">${escapeHtml(role)}</td>
-        <td class="match">${escapeHtml(founder.match_status || "")}</td>
-      </tr>`;
-    })
-    .join("");
-}
-
-function setView(view) {
-  state.view = view;
-  $("panel-founders").hidden = view !== "founders";
-  $("panel-companies").hidden = view !== "companies";
-  $("tab-founders").classList.toggle("active", view === "founders");
-  $("tab-companies").classList.toggle("active", view === "companies");
 }
 
 async function boot() {
@@ -180,13 +231,16 @@ async function boot() {
   ]);
 
   if (!companiesRes.ok) {
-    $("fresult-meta").textContent =
+    $("result-meta").textContent =
       "Could not load data/companies.json. Serve the repo root with python3 -m http.server and open /site/.";
     return;
   }
 
   const companiesPayload = await companiesRes.json();
   state.companies = companiesPayload.companies || [];
+  state.companiesBySlug = Object.fromEntries(
+    state.companies.filter((company) => company.slug).map((company) => [company.slug, company]),
+  );
   state.syncedAt = companiesPayload.synced_at || "";
 
   if (foundersRes.ok) {
@@ -200,22 +254,19 @@ async function boot() {
   $("stat-linkedin").textContent = String(withLinkedin);
   $("stat-synced").textContent = formatSynced(state.syncedAt);
 
-  fillSelect($("batch"), uniqueSorted(state.companies.map((c) => c.batch), BATCH_ORDER), "All batches");
-  fillSelect($("industry"), uniqueSorted(state.companies.map((c) => c.industry)), "All industries");
-  fillSelect($("fbatch"), uniqueSorted(state.founders.map((f) => f.yc_batch), BATCH_ORDER), "All batches");
+  fillSelect($("batch"), uniqueSorted(state.founders.map((f) => f.yc_batch), BATCH_ORDER), "All batches");
+  fillSelect(
+    $("industry"),
+    uniqueSorted(state.companies.map((company) => company.industry)),
+    "All industries",
+  );
 
-  $("q").addEventListener("input", renderCompanies);
-  $("batch").addEventListener("change", renderCompanies);
-  $("industry").addEventListener("change", renderCompanies);
-  $("fq").addEventListener("input", renderFounders);
-  $("fbatch").addEventListener("change", renderFounders);
-  $("flinkedin").addEventListener("change", renderFounders);
-  $("tab-founders").addEventListener("click", () => setView("founders"));
-  $("tab-companies").addEventListener("click", () => setView("companies"));
+  $("q").addEventListener("input", render);
+  $("batch").addEventListener("change", render);
+  $("industry").addEventListener("change", render);
+  $("linkedin").addEventListener("change", render);
 
-  renderCompanies();
-  renderFounders();
-  setView("founders");
+  render();
 }
 
 boot();

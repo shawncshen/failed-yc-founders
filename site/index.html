@@ -3,101 +3,58 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Failed YC founders — Inactive companies, W20–W26</title>
+    <title>Failed YC founders: Inactive companies, W20-W26</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=19" />
   </head>
   <body>
     <header class="mast">
-      <p class="kicker">YC directory · status Inactive · Winter 2020–Winter 2026</p>
-      <h1>Companies that did not make it</h1>
-      <p class="lede">
-        Every company Y Combinator itself marks Inactive in this window, plus
-        the founders — with LinkedIn when we could find it.
-      </p>
+      <div class="mast-copy">
+        <p class="kicker">
+          <span>YC directory · Winter 2020-Winter 2026</span>
+          <span class="badge">Inactive</span>
+        </p>
+        <h1>YC companies that did not make it… where are the founders now?</h1>
+        <p class="lede">
+          This list is companies Y Combinator marks as Inactive, plus each
+          founder’s LinkedIn and what they are up to now.
+        </p>
+      </div>
       <dl class="stats" id="stats">
         <div>
           <dt>Inactive companies</dt>
-          <dd id="stat-count">—</dd>
+          <dd id="stat-count">–</dd>
         </div>
         <div>
           <dt>Founders researched</dt>
-          <dd id="stat-founders">—</dd>
+          <dd id="stat-founders">–</dd>
         </div>
         <div>
           <dt>With LinkedIn</dt>
-          <dd id="stat-linkedin">—</dd>
+          <dd id="stat-linkedin">–</dd>
         </div>
         <div>
           <dt>Last synced</dt>
-          <dd id="stat-synced">—</dd>
+          <dd id="stat-synced">–</dd>
         </div>
       </dl>
     </header>
 
-    <nav class="tabs" aria-label="Views">
-      <button type="button" class="tab active" data-view="founders" id="tab-founders">
-        Founders
-      </button>
-      <button type="button" class="tab" data-view="companies" id="tab-companies">
-        Companies
-      </button>
-    </nav>
-
-    <section class="panel" id="panel-founders">
-      <section class="controls" aria-label="Founder filters">
+    <main class="panel">
+      <section class="controls" aria-label="Filters">
         <label class="search">
           <span>Search</span>
           <input
-            id="fq"
+            id="q"
             type="search"
-            placeholder="Founder, company, or current role"
+            placeholder="Founder, company, mission, or current role"
             autocomplete="off"
           />
-        </label>
-        <label>
-          <span>Batch</span>
-          <select id="fbatch">
-            <option value="">All batches</option>
-          </select>
-        </label>
-        <label>
-          <span>LinkedIn</span>
-          <select id="flinkedin">
-            <option value="">Any</option>
-            <option value="yes">Has LinkedIn</option>
-            <option value="no">Missing LinkedIn</option>
-          </select>
-        </label>
-      </section>
-      <p class="result-meta" id="fresult-meta"></p>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Founder</th>
-              <th>YC company</th>
-              <th>Batch</th>
-              <th>Current role / bio</th>
-              <th>Match</th>
-            </tr>
-          </thead>
-          <tbody id="frows"></tbody>
-        </table>
-      </div>
-      <p class="empty" id="fempty" hidden>No founders match those filters.</p>
-    </section>
-
-    <section class="panel" id="panel-companies" hidden>
-      <section class="controls" aria-label="Company filters">
-        <label class="search">
-          <span>Search</span>
-          <input id="q" type="search" placeholder="Name, one-liner, or city" autocomplete="off" />
         </label>
         <label>
           <span>Batch</span>
@@ -111,36 +68,37 @@
             <option value="">All industries</option>
           </select>
         </label>
+        <label>
+          <span>LinkedIn</span>
+          <select id="linkedin">
+            <option value="">Any</option>
+            <option value="yes">Has LinkedIn</option>
+            <option value="no">Missing LinkedIn</option>
+          </select>
+        </label>
       </section>
       <p class="result-meta" id="result-meta"></p>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
-              <th>Company</th>
-              <th>Batch</th>
+              <th>YC company</th>
+              <th>Founder</th>
+              <th>Mission</th>
               <th>Industry</th>
-              <th>What they built</th>
-              <th>Location</th>
+              <th>Current role / bio</th>
             </tr>
           </thead>
           <tbody id="rows"></tbody>
         </table>
       </div>
-      <p class="empty" id="empty" hidden>No companies match those filters.</p>
-    </section>
+      <p class="empty" id="empty" hidden>No rows match those filters.</p>
+    </main>
 
     <footer>
-      <p>
-        Source:
-        <a href="https://yc-oss.github.io/api/companies/all.json">yc-oss YC directory mirror</a>
-        + YC company pages +
-        <a href="https://linkdapi.com/">LinkdAPI</a> for missing LinkedIn URLs.
-        Failed here means YC status <code>Inactive</code>. Serve from the repo
-        root (<code>python3 -m http.server</code>) and open <code>/site/</code>.
-      </p>
+      <p>Made with a curious mind by Shawn Shen</p>
     </footer>
 
-    <script src="./app.js"></script>
+    <script src="./app.js?v=18"></script>
   </body>
 </html>
