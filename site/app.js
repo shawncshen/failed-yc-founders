@@ -19,7 +19,9 @@ const BATCH_ORDER = [
 
 const state = {
   companies: [],
+  founders: [],
   syncedAt: "",
+  view: "founders",
 };
 
 function $(id) {
@@ -63,7 +65,15 @@ function fillSelect(select, values, blankLabel) {
   }
 }
 
-function matches(company, query, batch, industry) {
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function matchesCompany(company, query, batch, industry) {
   if (batch && company.batch !== batch) return false;
   if (industry && company.industry !== industry) return false;
   if (!query) return true;
@@ -79,25 +89,41 @@ function matches(company, query, batch, industry) {
   return haystack.includes(query);
 }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
+function matchesFounder(founder, query, batch, linkedin) {
+  if (batch && founder.yc_batch !== batch) return false;
+  if (linkedin === "yes" && !founder.linkedin_url) return false;
+  if (linkedin === "no" && founder.linkedin_url) return false;
+  if (!query) return true;
+  const haystack = [
+    founder.full_name,
+    founder.yc_company,
+    founder.current_headline,
+    founder.yc_founder_bio,
+    founder.yc_title,
+  ]
+    .join(" ")
+    .toLowerCase();
+  return haystack.includes(query);
 }
 
-function render() {
+function founderNameCell(founder) {
+  const name = escapeHtml(founder.full_name);
+  if (founder.linkedin_url) {
+    return `<a href="${escapeHtml(founder.linkedin_url)}" target="_blank" rel="noreferrer">${name}</a>`;
+  }
+  return `<span class="plain-name" title="No LinkedIn URL found">${name}</span>`;
+}
+
+function renderCompanies() {
   const query = $("q").value.trim().toLowerCase();
   const batch = $("batch").value;
   const industry = $("industry").value;
-  const rows = state.companies.filter((company) => matches(company, query, batch, industry));
+  const rows = state.companies.filter((company) => matchesCompany(company, query, batch, industry));
 
   $("result-meta").textContent = `${rows.length} of ${state.companies.length} companies`;
   $("empty").hidden = rows.length > 0;
 
-  const body = $("rows");
-  body.innerHTML = rows
+  $("rows").innerHTML = rows
     .map((company) => {
       const yc = company.url
         ? `<a href="${escapeHtml(company.url)}" target="_blank" rel="noreferrer">${escapeHtml(company.name)}</a>`
@@ -113,28 +139,83 @@ function render() {
     .join("");
 }
 
+function renderFounders() {
+  const query = $("fq").value.trim().toLowerCase();
+  const batch = $("fbatch").value;
+  const linkedin = $("flinkedin").value;
+  const rows = state.founders.filter((founder) => matchesFounder(founder, query, batch, linkedin));
+
+  $("fresult-meta").textContent = `${rows.length} of ${state.founders.length} founders`;
+  $("fempty").hidden = rows.length > 0;
+
+  $("frows").innerHTML = rows
+    .map((founder) => {
+      const company = founder.yc_url
+        ? `<a href="${escapeHtml(founder.yc_url)}" target="_blank" rel="noreferrer">${escapeHtml(founder.yc_company)}</a>`
+        : escapeHtml(founder.yc_company);
+      const role = founder.current_headline || founder.yc_founder_bio || "—";
+      return `<tr>
+        <td class="founder">${founderNameCell(founder)}</td>
+        <td class="company">${company}</td>
+        <td class="batch">${escapeHtml(founder.yc_batch)}</td>
+        <td class="blurb">${escapeHtml(role)}</td>
+        <td class="match">${escapeHtml(founder.match_status || "")}</td>
+      </tr>`;
+    })
+    .join("");
+}
+
+function setView(view) {
+  state.view = view;
+  $("panel-founders").hidden = view !== "founders";
+  $("panel-companies").hidden = view !== "companies";
+  $("tab-founders").classList.toggle("active", view === "founders");
+  $("tab-companies").classList.toggle("active", view === "companies");
+}
+
 async function boot() {
-  const response = await fetch("../data/companies.json");
-  if (!response.ok) {
-    $("result-meta").textContent =
+  const [companiesRes, foundersRes] = await Promise.all([
+    fetch("../data/companies.json"),
+    fetch("../data/founders.json"),
+  ]);
+
+  if (!companiesRes.ok) {
+    $("fresult-meta").textContent =
       "Could not load data/companies.json. Serve the repo root with python3 -m http.server and open /site/.";
     return;
   }
-  const payload = await response.json();
-  state.companies = payload.companies || [];
-  state.syncedAt = payload.synced_at || "";
 
-  $("stat-count").textContent = String(payload.count ?? state.companies.length);
-  $("stat-batches").textContent = String((payload.batches || []).length);
+  const companiesPayload = await companiesRes.json();
+  state.companies = companiesPayload.companies || [];
+  state.syncedAt = companiesPayload.synced_at || "";
+
+  if (foundersRes.ok) {
+    const foundersPayload = await foundersRes.json();
+    state.founders = foundersPayload.founders || [];
+  }
+
+  const withLinkedin = state.founders.filter((founder) => founder.linkedin_url).length;
+  $("stat-count").textContent = String(companiesPayload.count ?? state.companies.length);
+  $("stat-founders").textContent = String(state.founders.length);
+  $("stat-linkedin").textContent = String(withLinkedin);
   $("stat-synced").textContent = formatSynced(state.syncedAt);
 
   fillSelect($("batch"), uniqueSorted(state.companies.map((c) => c.batch), BATCH_ORDER), "All batches");
   fillSelect($("industry"), uniqueSorted(state.companies.map((c) => c.industry)), "All industries");
+  fillSelect($("fbatch"), uniqueSorted(state.founders.map((f) => f.yc_batch), BATCH_ORDER), "All batches");
 
-  $("q").addEventListener("input", render);
-  $("batch").addEventListener("change", render);
-  $("industry").addEventListener("change", render);
-  render();
+  $("q").addEventListener("input", renderCompanies);
+  $("batch").addEventListener("change", renderCompanies);
+  $("industry").addEventListener("change", renderCompanies);
+  $("fq").addEventListener("input", renderFounders);
+  $("fbatch").addEventListener("change", renderFounders);
+  $("flinkedin").addEventListener("change", renderFounders);
+  $("tab-founders").addEventListener("click", () => setView("founders"));
+  $("tab-companies").addEventListener("click", () => setView("companies"));
+
+  renderCompanies();
+  renderFounders();
+  setView("founders");
 }
 
 boot();

@@ -17,8 +17,8 @@
       <p class="kicker">YC directory · status Inactive · Winter 2020–Winter 2026</p>
       <h1>Companies that did not make it</h1>
       <p class="lede">
-        Every company Y Combinator itself marks Inactive in this window. Not
-        acqui-hires, not IPOs — shutdowns.
+        Every company Y Combinator itself marks Inactive in this window, plus
+        the founders — with LinkedIn when we could find it.
       </p>
       <dl class="stats" id="stats">
         <div>
@@ -26,8 +26,12 @@
           <dd id="stat-count">—</dd>
         </div>
         <div>
-          <dt>Batches covered</dt>
-          <dd id="stat-batches">16</dd>
+          <dt>Founders researched</dt>
+          <dd id="stat-founders">—</dd>
+        </div>
+        <div>
+          <dt>With LinkedIn</dt>
+          <dd id="stat-linkedin">—</dd>
         </div>
         <div>
           <dt>Last synced</dt>
@@ -36,51 +40,104 @@
       </dl>
     </header>
 
-    <section class="controls" aria-label="Filters">
-      <label class="search">
-        <span>Search</span>
-        <input id="q" type="search" placeholder="Name, one-liner, or city" autocomplete="off" />
-      </label>
-      <label>
-        <span>Batch</span>
-        <select id="batch">
-          <option value="">All batches</option>
-        </select>
-      </label>
-      <label>
-        <span>Industry</span>
-        <select id="industry">
-          <option value="">All industries</option>
-        </select>
-      </label>
+    <nav class="tabs" aria-label="Views">
+      <button type="button" class="tab active" data-view="founders" id="tab-founders">
+        Founders
+      </button>
+      <button type="button" class="tab" data-view="companies" id="tab-companies">
+        Companies
+      </button>
+    </nav>
+
+    <section class="panel" id="panel-founders">
+      <section class="controls" aria-label="Founder filters">
+        <label class="search">
+          <span>Search</span>
+          <input
+            id="fq"
+            type="search"
+            placeholder="Founder, company, or current role"
+            autocomplete="off"
+          />
+        </label>
+        <label>
+          <span>Batch</span>
+          <select id="fbatch">
+            <option value="">All batches</option>
+          </select>
+        </label>
+        <label>
+          <span>LinkedIn</span>
+          <select id="flinkedin">
+            <option value="">Any</option>
+            <option value="yes">Has LinkedIn</option>
+            <option value="no">Missing LinkedIn</option>
+          </select>
+        </label>
+      </section>
+      <p class="result-meta" id="fresult-meta"></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Founder</th>
+              <th>YC company</th>
+              <th>Batch</th>
+              <th>Current role / bio</th>
+              <th>Match</th>
+            </tr>
+          </thead>
+          <tbody id="frows"></tbody>
+        </table>
+      </div>
+      <p class="empty" id="fempty" hidden>No founders match those filters.</p>
     </section>
 
-    <p class="result-meta" id="result-meta"></p>
-
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Company</th>
-            <th>Batch</th>
-            <th>Industry</th>
-            <th>What they built</th>
-            <th>Location</th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-
-    <p class="empty" id="empty" hidden>No companies match those filters.</p>
+    <section class="panel" id="panel-companies" hidden>
+      <section class="controls" aria-label="Company filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="q" type="search" placeholder="Name, one-liner, or city" autocomplete="off" />
+        </label>
+        <label>
+          <span>Batch</span>
+          <select id="batch">
+            <option value="">All batches</option>
+          </select>
+        </label>
+        <label>
+          <span>Industry</span>
+          <select id="industry">
+            <option value="">All industries</option>
+          </select>
+        </label>
+      </section>
+      <p class="result-meta" id="result-meta"></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Batch</th>
+              <th>Industry</th>
+              <th>What they built</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <p class="empty" id="empty" hidden>No companies match those filters.</p>
+    </section>
 
     <footer>
       <p>
         Source:
-        <a href="https://yc-oss.github.io/api/companies/all.json">yc-oss YC directory mirror</a>.
-        Failed here means YC status <code>Inactive</code>. Serve this page from the
-        repo root (<code>python3 -m http.server</code>) so
-        <code>data/companies.json</code> can load.
+        <a href="https://yc-oss.github.io/api/companies/all.json">yc-oss YC directory mirror</a>
+        + YC company pages +
+        <a href="https://linkdapi.com/">LinkdAPI</a> for missing LinkedIn URLs.
+        Failed here means YC status <code>Inactive</code>. Serve from the repo
+        root (<code>python3 -m http.server</code>) and open <code>/site/</code>.
       </p>
     </footer>
 
