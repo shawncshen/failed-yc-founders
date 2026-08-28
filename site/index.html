@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Failed YC founders — Inactive companies, W20–W26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="mast">
+      <p class="kicker">YC directory · status Inactive · Winter 2020–Winter 2026</p>
+      <h1>Companies that did not make it</h1>
+      <p class="lede">
+        Every company Y Combinator itself marks Inactive in this window. Not
+        acqui-hires, not IPOs — shutdowns.
+      </p>
+      <dl class="stats" id="stats">
+        <div>
+          <dt>Inactive companies</dt>
+          <dd id="stat-count">—</dd>
+        </div>
+        <div>
+          <dt>Batches covered</dt>
+          <dd id="stat-batches">16</dd>
+        </div>
+        <div>
+          <dt>Last synced</dt>
+          <dd id="stat-synced">—</dd>
+        </div>
+      </dl>
+    </header>
+
+    <section class="controls" aria-label="Filters">
+      <label class="search">
+        <span>Search</span>
+        <input id="q" type="search" placeholder="Name, one-liner, or city" autocomplete="off" />
+      </label>
+      <label>
+        <span>Batch</span>
+        <select id="batch">
+          <option value="">All batches</option>
+        </select>
+      </label>
+      <label>
+        <span>Industry</span>
+        <select id="industry">
+          <option value="">All industries</option>
+        </select>
+      </label>
+    </section>
+
+    <p class="result-meta" id="result-meta"></p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Batch</th>
+            <th>Industry</th>
+            <th>What they built</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+    <p class="empty" id="empty" hidden>No companies match those filters.</p>
+
+    <footer>
+      <p>
+        Source:
+        <a href="https://yc-oss.github.io/api/companies/all.json">yc-oss YC directory mirror</a>.
+        Failed here means YC status <code>Inactive</code>. Serve this page from the
+        repo root (<code>python3 -m http.server</code>) so
+        <code>data/companies.json</code> can load.
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
