@@ -4,6 +4,8 @@ What do YC founders do after their startup fails?
 
 This repo tracks **YC companies marked Inactive** from **Winter 2020 through Winter 2026**, then follows the founders (LinkedIn URLs and current roles when we can find them) in a small searchable dashboard.
 
+**Live dashboard:** [shawncshen.github.io/failed-yc-founders/site/](https://shawncshen.github.io/failed-yc-founders/site/)
+
 ![Dashboard: inactive YC companies and where the founders are now](docs/dashboard.png)
 
 ## What counts as failed
@@ -72,4 +74,6 @@ A weekly GitHub Action (`.github/workflows/sync.yml`) can refresh `data/companie
 
 ## GitHub Pages
 
-In the repo settings, enable Pages from the `main` branch root, then open `/site/`.
+Published from the `main` branch root:
+
+[https://shawncshen.github.io/failed-yc-founders/site/](https://shawncshen.github.io/failed-yc-founders/site/)
