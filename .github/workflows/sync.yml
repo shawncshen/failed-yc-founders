@@ -1,0 +1,30 @@
+name: Sync Inactive YC companies
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Refresh Inactive census
+        run: python scripts/sync_yc.py
+      - name: Commit if the census changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/companies.json data/companies.csv
+          if git diff --staged --quiet; then
+            echo "No company changes"
+          else
+            git commit -m "chore(data): refresh Inactive YC census"
+            git push
+          fi
