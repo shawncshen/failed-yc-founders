@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-08-28T09:07:25Z",
-  "count": 417,
+  "synced_at": "2026-08-31T18:58:34Z",
+  "count": 418,
   "companies": [
     {
       "id": 30028,
@@ -6333,6 +6333,43 @@
       "url": "https://www.ycombinator.com/companies/riskangle",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54a02285653f46a282f6b715527aa06ce8d9cd0d.png",
       "launched_at": 1721862703
+    },
+    {
+      "id": 29688,
+      "name": "camfer",
+      "slug": "camfer",
+      "former_names": [
+        "Camfer Inc.",
+        "Camfer"
+      ],
+      "website": "https://www.camfer.dev/",
+      "one_liner": "Building the world\u2019s first AI mechanical engineer.",
+      "long_description": "camfer is the AI CAD tool. Now, engineers can create parametric designs with natural language.",
+      "batch": "Summer 2024",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Generative AI",
+        "Hardware",
+        "Productivity",
+        "Manufacturing",
+        "AI"
+      ],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 4,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/camfer",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c19c2043057dddb96aa0fb4c1eb11f547911f429.png",
+      "launched_at": 1726008426
     },
     {
       "id": 29747,
