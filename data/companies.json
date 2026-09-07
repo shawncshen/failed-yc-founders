@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-08-31T18:58:34Z",
-  "count": 418,
+  "synced_at": "2026-09-07T17:34:45Z",
+  "count": 419,
   "companies": [
     {
       "id": 30028,
@@ -1367,42 +1367,6 @@
       "url": "https://www.ycombinator.com/companies/payflow-2",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a26715d50dea86a98186746ad74932cda51155ed.png",
       "launched_at": 1595401779
-    },
-    {
-      "id": 22301,
-      "name": "Quell",
-      "slug": "quell",
-      "former_names": [],
-      "website": "https://playquell.com",
-      "one_liner": "Get fit fighting your way through a fantasy world.",
-      "long_description": "Quell is an immersive fitness game where players get fit fighting their way through a fantasy world. Our low-cost wearable uses smart resistance bands to guide you through an exciting, effective combat workout at home. We\u2019re Peloton meets gaming at 1/10th of the price\r\n",
-      "batch": "Summer 2020",
-      "status": "Inactive",
-      "industry": "Consumer",
-      "subindustry": "Consumer -> Consumer Electronics",
-      "industries": [
-        "Consumer",
-        "Consumer Electronics"
-      ],
-      "tags": [
-        "Hardware",
-        "Machine Learning",
-        "Sports Tech",
-        "Fitness",
-        "Gaming"
-      ],
-      "all_locations": "London, England, United Kingdom",
-      "regions": [
-        "United Kingdom",
-        "Europe",
-        "Remote",
-        "Partly Remote"
-      ],
-      "team_size": 40,
-      "stage": "Early",
-      "url": "https://www.ycombinator.com/companies/quell",
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/133bcd99ce642360941054c47cfd64820d35818f.png",
-      "launched_at": 1597757414
     },
     {
       "id": 21814,
@@ -3912,6 +3876,39 @@
       "url": "https://www.ycombinator.com/companies/squire-ai",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8972703d81fdbb75413d24021353cf5ed0937ec2.png",
       "launched_at": 1627487920
+    },
+    {
+      "id": 23959,
+      "name": "TAG",
+      "slug": "tag",
+      "former_names": [],
+      "website": "https://tagme.pk/",
+      "one_liner": "TAG is the First Digital Bank (Chime/Revolut/N26) for Pakistan",
+      "long_description": "TAG is setting new standards and changing the way Pakistan banks by building a digital bank for the masses, with an aim to encompass the entire financial life of users, from basic banking such as bank account and Visa Debit card to employer payrolls, salary advances, savings, and neo-brokerage in future.",
+      "batch": "Summer 2021",
+      "status": "Inactive",
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Banking and Exchange",
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "tags": [
+        "FinOps",
+        "Fintech"
+      ],
+      "all_locations": "Islamabad, Islamabad Capital Territory, Pakistan",
+      "regions": [
+        "Pakistan",
+        "South Asia",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 36,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/tag",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/22dbba25a74200259e0d969df993848635b9e309.png",
+      "launched_at": 1626881984
     },
     {
       "id": 24839,
@@ -8475,8 +8472,8 @@
         "Tackle",
         "AXAR AI"
       ],
-      "website": "",
-      "one_liner": "How great teams ship with AI",
+      "website": "https://www.axar.ai/",
+      "one_liner": "Multi-agent orchestration platform",
       "long_description": "",
       "batch": "Winter 2021",
       "status": "Inactive",
@@ -8497,10 +8494,10 @@
         "Remote",
         "Partly Remote"
       ],
-      "team_size": 4,
+      "team_size": 40,
       "stage": "Early",
       "url": "https://www.ycombinator.com/companies/axar-ai",
-      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/52cb3520d9bab156b57aed7f3c76a564ce21c4cb.png",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0c6547ecb9fa107a828426f050dc9ff06b380355.png",
       "launched_at": 1616475313
     },
     {
@@ -14135,6 +14132,40 @@
       "url": "https://www.ycombinator.com/companies/patchwork",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/adeef8e1af9dbd08cd58abd347c0b5085123d33a.png",
       "launched_at": 1708993395
+    },
+    {
+      "id": 29375,
+      "name": "Preloop",
+      "slug": "preloop",
+      "former_names": [],
+      "website": "https://www.preloop.com",
+      "one_liner": "Translate your experimental scripts into production ML services",
+      "long_description": "Only 2 out of 10 ML models make it from experiment to production. Preloop helps automate the process of deployment, helping companies realize more value from their machine learning teams, while focusing teams' attention on science instead of engineering.",
+      "batch": "Winter 2024",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Deep Learning",
+        "Developer Tools",
+        "Machine Learning",
+        "Data Science"
+      ],
+      "all_locations": "Seattle, WA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/preloop",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/62ebbbabf82f9c9badd0bbcb60f8749d391d5a78.png",
+      "launched_at": 1702654646
     },
     {
       "id": 29260,
