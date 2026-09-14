@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-09-07T17:34:45Z",
-  "count": 419,
+  "synced_at": "2026-09-14T17:56:32Z",
+  "count": 421,
   "companies": [
     {
       "id": 30028,
@@ -118,6 +118,41 @@
       "url": "https://www.ycombinator.com/companies/supercontrast",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/790820337661ae1bc9c065bae89b47e0ad126432.png",
       "launched_at": 1727282803
+    },
+    {
+      "id": 31022,
+      "name": "Coasts",
+      "slug": "coasts",
+      "former_names": [
+        "JSX Tool"
+      ],
+      "website": "https://coasts.dev",
+      "one_liner": "Localhost service isolation and orchestration for git worktrees",
+      "long_description": "A Coast (containerized host) is a local development runtime. Coasts let you run multiple isolated environments for the same project on one machine. As AI coding agents increasingly work in parallel across git worktrees, developers hit painful conflicts \u2014 clashing ports, duplicated databases, and fragile per-branch setup. Coasts solve this by giving each worktree its own fully isolated runtime, so multiple agents can build and test side by side without stepping on each other.",
+      "batch": "Fall 2025",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "Productivity",
+        "Design",
+        "Web Development"
+      ],
+      "all_locations": "",
+      "regions": [
+        "Unspecified"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/coasts",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/14423e406f790420f115f8958c1af6eb85b97201.png",
+      "launched_at": 1762549706
     },
     {
       "id": 31004,
@@ -3904,7 +3939,7 @@
         "Remote",
         "Partly Remote"
       ],
-      "team_size": 36,
+      "team_size": 100,
       "stage": "Early",
       "url": "https://www.ycombinator.com/companies/tag",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/22dbba25a74200259e0d969df993848635b9e309.png",
@@ -14410,6 +14445,38 @@
       "url": "https://www.ycombinator.com/companies/toolify",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dda140ccf9838edcec96e76d3655e00315a0b4a7.png",
       "launched_at": 1706123140
+    },
+    {
+      "id": 29310,
+      "name": "Tusk",
+      "slug": "tusk",
+      "former_names": [],
+      "website": "https://usetusk.ai",
+      "one_liner": "AI agent that generates unit and integration tests",
+      "long_description": "Tusk (YC W24) is an AI agent that helps developers generate unit and integration tests with codebase context. Tusk sits in CI and provides automatic coverage whenever software engineers raise a PR. Engineering teams use Tusk to prevent critical regressions while increasing test coverage.",
+      "batch": "Winter 2024",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 4,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/tusk",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb011897f099f9342d33ca8a6bad3b4388ee0a54.png",
+      "launched_at": 1700257117
     },
     {
       "id": 29361,
