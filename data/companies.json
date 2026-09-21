@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-09-14T17:56:32Z",
-  "count": 421,
+  "synced_at": "2026-09-21T18:03:53Z",
+  "count": 424,
   "companies": [
     {
       "id": 30028,
@@ -2795,6 +2795,38 @@
       "url": "https://www.ycombinator.com/companies/kodda",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9c8da2bba727db76895e442b23d60a8e7b942328.png",
       "launched_at": 1626825976
+    },
+    {
+      "id": 24415,
+      "name": "Kurios",
+      "slug": "kurios",
+      "former_names": [],
+      "website": "https://www.kurios.la/",
+      "one_liner": "Cohort-based online courses for professionals in Latin America",
+      "long_description": "Kurios is cohort based online courses for professionals in Latin America. Our instructors are professionals coming out of tech companies like Google, Amazon, Stripe and more. \r\n\r\nOur course completion rate is 90% and annual customer retention rate is 100%.\r\n\r\nWe have 65 B2B customers and we up-skill their employees in product management, growth and data analytics, just to start with.\r\n\r\nSome customers: Walmart Mexico, Banorte (2nd bank in Mexico), Mercado Libre, BCP (#1 bank in Peru), Alicorp (leading CPG in Latam), Sura (leading pension fund), etc.",
+      "batch": "Summer 2021",
+      "status": "Inactive",
+      "industry": "Education",
+      "subindustry": "Education",
+      "industries": [
+        "Education"
+      ],
+      "tags": [
+        "eLearning",
+        "Latin America"
+      ],
+      "all_locations": "Lima, Callao Region, Peru; Lima, Lima Province, Peru",
+      "regions": [
+        "Peru",
+        "Latin America",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 10,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/kurios",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75927de021781b52309af33eced0acea980bc7da.png",
+      "launched_at": 1625609999
     },
     {
       "id": 24156,
@@ -9969,6 +10001,44 @@
       "launched_at": 1614703120
     },
     {
+      "id": 23430,
+      "name": "Mystic",
+      "slug": "mystic",
+      "former_names": [
+        "Neuro AI",
+        "Neuro",
+        "Mystic",
+        "Mystic AI"
+      ],
+      "website": "https://www.mystic.ai/",
+      "one_liner": "Low latency API to run and deploy ML models",
+      "long_description": "Mystic\u2019s platform allows companies to easily and reliably deploy ML models on our serverless cloud or on their own infrastructure without requiring a team of MLOps engineers. With our Python SDK, data-scientists immediately get an endpoint from their own model, or any open-source models.\r\nOnce uploaded, our platform handles routing, multi-cloud scaling, caching, GPU optimization and other features to provide the ultimate ML inference platform.",
+      "batch": "Winter 2021",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Machine Learning"
+      ],
+      "all_locations": "Austin, TX, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 11,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/mystic",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f860b32ddb9b39b9b1ae8c22f0c17f140dc5e9d4.png",
+      "launched_at": 1614265935
+    },
+    {
       "id": 23185,
       "name": "Mythia",
       "slug": "mythia",
@@ -13388,6 +13458,33 @@
       "url": "https://www.ycombinator.com/companies/peeba",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1201a58c5de47a287ab4ea6a262a2598a1e6f3af.png",
       "launched_at": 1674343263
+    },
+    {
+      "id": 27915,
+      "name": "Rainmaker",
+      "slug": "rainmaker",
+      "former_names": [],
+      "website": "http://www.rainmaker.nyc",
+      "one_liner": "DeFi for Everyone",
+      "long_description": "Rainmaker is an account abstraction-based crypto wallet that makes DeFi investing simple and fast. Set up a wallet with just an email, instantly deposit funds from your bank or credit card, and invest in DeFi without gas fees.",
+      "batch": "Winter 2023",
+      "status": "Inactive",
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Consumer Finance",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "tags": [],
+      "all_locations": "",
+      "regions": [
+        "Unspecified"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/rainmaker",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4513fcb84fa72bcdfce26d3a22b34e43edaa1e49.png",
+      "launched_at": 1678219500
     },
     {
       "id": 27734,
