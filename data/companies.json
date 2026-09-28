@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-09-21T18:03:53Z",
-  "count": 424,
+  "synced_at": "2026-09-28T19:27:41Z",
+  "count": 427,
   "companies": [
     {
       "id": 30028,
@@ -4620,6 +4620,43 @@
       "launched_at": 1676872162
     },
     {
+      "id": 26709,
+      "name": "Dittofeed",
+      "slug": "dittofeed",
+      "former_names": [
+        "Plinth",
+        "Plinth Financial"
+      ],
+      "website": "http://dittofeed.com",
+      "one_liner": "Open-source customer engagement & messaging automation",
+      "long_description": "Dittofeed is an open-source alternative to platforms like Klaviyo and Customer.io. Self-host us for free, or use our low-cost cloud offering to automate messages across email, SMS, mobile push, WhatsApp, and more. \r\n\r\nWe also offer solutions for embedding Dittofeed in your own SaaS! Instantly provide your customers with automated messaging tools.",
+      "batch": "Summer 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Marketing",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "B2B",
+        "Messaging",
+        "Open Source"
+      ],
+      "all_locations": "Los Angeles, CA, USA; Remote",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/dittofeed",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b22d1c28c768e382c5e7543fe2dbe66969ea4adf.png",
+      "launched_at": 1676327834
+    },
+    {
       "id": 27150,
       "name": "Drip",
       "slug": "drip",
@@ -6500,6 +6537,37 @@
       "launched_at": 1754692935
     },
     {
+      "id": 30782,
+      "name": "TectoAI",
+      "slug": "tectoai",
+      "former_names": [
+        "TectoAI Inc."
+      ],
+      "website": "https://www.tecto.ai/",
+      "one_liner": "A Platform for AI Governance",
+      "long_description": "We help your company identify roles that can be filled by agentic AI tools, onboard them quickly, monitor their performance and behavior post deployment, ensure they remain compliant, and aligned with regulations. Tecto is building the governance platform for managing the AI stack! ",
+      "batch": "Summer 2025",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/tectoai",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/660e2396a1d079a64a42ea2a4ce4b81cefd385f0.png",
+      "launched_at": 1752441321
+    },
+    {
       "id": 13496,
       "name": "Apartio",
       "slug": "apartio",
@@ -8256,6 +8324,42 @@
       "url": "https://www.ycombinator.com/companies/thunderpod",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/91478c7c3ca52d34bc10c964c9668b6eb566be9c.png",
       "launched_at": 1584153972
+    },
+    {
+      "id": 13176,
+      "name": "TrueNorth",
+      "slug": "truenorth",
+      "former_names": [
+        "Honest Freight"
+      ],
+      "website": "http://www.truenorthfleet.com",
+      "one_liner": "TrueNorth gives truckers a single place to manage their business.",
+      "long_description": "Traditional trucking companies still run on paper, emails, phone calls, and snail mail. They\u2019re inefficient and bloated. The pressure of low margins suffocates the truckers who actually do the work.\r\n\r\nOur software cuts out the inefficiencies, and we pass the savings through to our truckers. Instead of paper-pushers and endless phone calls, they get an end-to-end solution: customer management, load coordination, automated invoicing, and instant payments. A single place to manage their business.\r\n\r\nA blog post that goes deeper into why we started this company: https://medium.com/@jinstedge/truenorth-b42437f1dc03\r\n\r\nWe're a team of over 60, and proud to say the *majority* of us are female or non-binary. We come from a wide range of backgrounds. We don't just value diversity, we cherish it. And we mean it.",
+      "batch": "Winter 2020",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Supply Chain and Logistics",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Logistics"
+      ],
+      "all_locations": "San Francisco, CA, USA; Fort Worth, TX, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 60,
+      "stage": "Growth",
+      "url": "https://www.ycombinator.com/companies/truenorth",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/88bc0fa14209c82724c39b4b394f18e06ea23e95.png",
+      "launched_at": 1581267704
     },
     {
       "id": 13486,
