@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-09-28T19:27:41Z",
-  "count": 427,
+  "synced_at": "2026-10-05T20:25:28Z",
+  "count": 431,
   "companies": [
     {
       "id": 30028,
@@ -1499,7 +1499,7 @@
         "Delivery",
         "Food & Beverage"
       ],
-      "all_locations": "New York City, NY, USA; New York, NY, USA",
+      "all_locations": "New York City, NY, USA",
       "regions": [
         "United States of America",
         "America / Canada"
@@ -4145,6 +4145,42 @@
       "launched_at": 1626802699
     },
     {
+      "id": 24058,
+      "name": "Zeit Medical",
+      "slug": "zeit-medical",
+      "former_names": [
+        "Zeit Medical Inc."
+      ],
+      "website": "https://www.zeitmedical.com/",
+      "one_liner": "Immediate stroke detection at home",
+      "long_description": "Zeit Medical leverages the power of AI and wearable sensors to deliver peace of mind for those affected by stroke. Zeit\u2019s smart headband immediately detects the onset of stroke and notifies 911. Each year more than 90% of the one million strokes in the US go untreated, resulting in life-long disability and exploding medical costs north of $100b. The lack of timely treatment is the result of delays in alerting the emergency services. More than 10 million Americans with an elevated stroke risk live with constant fear that a stroke may go unnoticed for hours, while they are asleep or alone. The company was founded by Orestis Vardoulis  PhD  a biomedical & mechanical engineer and expert in digital health (EPFL/Stanford) and Urs Naber  MD  a critical care physician (Dartmouth/Stanford). They have both seen the devastating effects of stroke in their families and came up with the idea of addressing this unmet clinical need during their Stanford Biodesign Innovation Fellowship.",
+      "batch": "Summer 2021",
+      "status": "Inactive",
+      "industry": "Healthcare",
+      "subindustry": "Healthcare -> Medical Devices",
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "tags": [
+        "Sleep Tech",
+        "Consumer Health Services",
+        "Medical Devices"
+      ],
+      "all_locations": "San Francisco, CA, USA; Redwood City, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/zeit-medical",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a099dfe2730e5df20958e5db106644c907772abb.png",
+      "launched_at": 1627888729
+    },
+    {
       "id": 24524,
       "name": "outloud.ai",
       "slug": "outloud-ai",
@@ -4216,6 +4252,39 @@
       "url": "https://www.ycombinator.com/companies/airtrain-ai",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75317513ffcf6008b389c1e9fada5072394a8511.png",
       "launched_at": 1657048120
+    },
+    {
+      "id": 27249,
+      "name": "Aldara",
+      "slug": "aldara",
+      "former_names": [
+        "Lumo"
+      ],
+      "website": "https://aldara.com",
+      "one_liner": "HOA manager with automated operations",
+      "long_description": "Aldara is a modern, efficient HOA manager.\r\nWe achieve that by automating back-office and operations with our in-house technology, powered by AI.",
+      "batch": "Summer 2022",
+      "status": "Inactive",
+      "industry": "Real Estate and Construction",
+      "subindustry": "Real Estate and Construction",
+      "industries": [
+        "Real Estate and Construction"
+      ],
+      "tags": [
+        "Fintech",
+        "Real Estate",
+        "Proptech"
+      ],
+      "all_locations": "Barcelona, CT, Spain",
+      "regions": [
+        "Spain",
+        "Europe"
+      ],
+      "team_size": 10,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/aldara",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0c86ef8ba5f876baddbfe2edd028c531149deb0f.png",
+      "launched_at": 1660117520
     },
     {
       "id": 26681,
@@ -7975,6 +8044,35 @@
       "url": "https://www.ycombinator.com/companies/quickcard",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4bb28fcd3fc180e9263e820199030ea420439eca.png",
       "launched_at": 1584160057
+    },
+    {
+      "id": 13210,
+      "name": "Reframe",
+      "slug": "reframe-2",
+      "former_names": [],
+      "website": "https://reframe.dev/",
+      "one_liner": "Zoomable generative UI for codebase architecture",
+      "long_description": "Shutdown to pursue fundamental computing research",
+      "batch": "Winter 2020",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Developer Tools"
+      ],
+      "all_locations": "",
+      "regions": [
+        "Unspecified"
+      ],
+      "team_size": 0,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/reframe-2",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/880705b835d5a12c59be031e53d0493e21e5b49c.png",
+      "launched_at": 1790739463
     },
     {
       "id": 13199,
@@ -12134,6 +12232,43 @@
       "url": "https://www.ycombinator.com/companies/pursuit-2",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b5ce022bfb30450e49da2647b0e6497353898b94.png",
       "launched_at": 1644014102
+    },
+    {
+      "id": 25540,
+      "name": "Rehook.ai",
+      "slug": "rehook-ai",
+      "former_names": [
+        "ShoprTV Pvt. Ltd.",
+        "ShoprTV",
+        "shopr.tv",
+        "Rehook.io"
+      ],
+      "website": "https://rehook.ai/",
+      "one_liner": "Run, Track and manage any and all user incentive campaigns.",
+      "long_description": "rehook.ai is an all-in-one promotion engine. A complete stack which lets you run referral, loyalty, rewards, discounts, coupons, leaderboards, streaks, tiers etc and is flexible, trackable, scalable and secure.\r\n \r\nWith an intuitive rule engine, marketers can simply add/edit/change rules to generate coupons/rewards/cashbacks or any other incentives. rehook.ai lets you experiment and personalize campaigns around user segments, geographies, demographics, journeys and any other attribute- without ever going back to tech.\r\n\r\n",
+      "batch": "Winter 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Marketing",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Marketing"
+      ],
+      "all_locations": "Bengaluru, KA, India",
+      "regions": [
+        "India",
+        "South Asia"
+      ],
+      "team_size": 12,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/rehook-ai",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/53da24c36b479dbe73257b4e0460bbc902e023bf.png",
+      "launched_at": 1640693585
     },
     {
       "id": 26265,
