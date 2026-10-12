@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-10-05T20:25:28Z",
-  "count": 431,
+  "synced_at": "2026-10-12T21:06:25Z",
+  "count": 434,
   "companies": [
     {
       "id": 30028,
@@ -4181,6 +4181,40 @@
       "launched_at": 1627888729
     },
     {
+      "id": 24416,
+      "name": "Zoios.",
+      "slug": "zoios",
+      "former_names": [
+        "Zoios"
+      ],
+      "website": "https://zoios.io",
+      "one_liner": "Help start- and scale-ups excel at People, Culture and Performance.",
+      "long_description": "Are you looking for a platform that can help you overcome people and culture challenges? \r\n\r\nWe combine human expertise with advanced data analytics to help you achieve the results you dream about. Our platform helps organizations build a great culture, hire the right talent and lead their people.\r\n\r\nThere is no need to be guessing, and worrying all the time. Use Zoios to get real-time actions that will help you create an organization where employees thrive.",
+      "batch": "Summer 2021",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Human Resources",
+      "industries": [
+        "B2B",
+        "Human Resources"
+      ],
+      "tags": [
+        "Mental Health Tech",
+        "SaaS",
+        "B2B"
+      ],
+      "all_locations": "Copenhagen, Denmark",
+      "regions": [
+        "Denmark",
+        "Europe"
+      ],
+      "team_size": 8,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/zoios",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/45e05e3946f68c57eaa653dc1051cb5546d68eb3.png",
+      "launched_at": 1626954349
+    },
+    {
       "id": 24524,
       "name": "outloud.ai",
       "slug": "outloud-ai",
@@ -6505,6 +6539,40 @@
       "launched_at": 1721862703
     },
     {
+      "id": 29689,
+      "name": "Tivara",
+      "slug": "tivara",
+      "former_names": [
+        "Happy Auth"
+      ],
+      "website": "https://tivara.com",
+      "one_liner": "The AI workforce for medical groups",
+      "long_description": "",
+      "batch": "Summer 2024",
+      "status": "Inactive",
+      "industry": "Healthcare",
+      "subindustry": "Healthcare",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "B2B",
+        "Healthcare"
+      ],
+      "all_locations": "New York City, NY, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/tivara",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c195f1e4be073ff23e0e95a7e8dd2dbdc94e086e.png",
+      "launched_at": 1722295529
+    },
+    {
       "id": 29688,
       "name": "camfer",
       "slug": "camfer",
@@ -7055,8 +7123,8 @@
         "Remote",
         "Partly Remote"
       ],
-      "team_size": 12,
-      "stage": "Growth",
+      "team_size": 50,
+      "stage": "Early",
       "url": "https://www.ycombinator.com/companies/duffl",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8906169a88bda866fc7b928a110627276ee2e93f.png",
       "launched_at": 1597006566
@@ -8051,7 +8119,7 @@
       "slug": "reframe-2",
       "former_names": [],
       "website": "https://reframe.dev/",
-      "one_liner": "Zoomable generative UI for codebase architecture",
+      "one_liner": "Model and visualize codebase architecture",
       "long_description": "Shutdown to pursue fundamental computing research",
       "batch": "Winter 2020",
       "status": "Inactive",
@@ -11140,6 +11208,42 @@
       "url": "https://www.ycombinator.com/companies/antwalk",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54a8cf0b68ea1720cdf1adba0a1c01b4115f5972.png",
       "launched_at": 1647841473
+    },
+    {
+      "id": 25480,
+      "name": "Atlas",
+      "slug": "atlas-2",
+      "former_names": [],
+      "website": "https://atlas.so",
+      "one_liner": "Modern customer support platform replacement for Intercom and Zendesk",
+      "long_description": "Atlas is a modern, all-in-one customer support platform that is built with AI first. We help you solve your customers problems faster by understanding them more completely with a suite of customer tools like session recording, bug tracking, and event feeds. You can think of us as the next generation Zendesk / Intercom combined with Log Rocket and Linear.\r\n\r\nLearn More: https://atlas.so/\r\n\r\nProducts:\r\n- Chat Widget\r\n- Ticketing\r\n- Omni channel Support (chat, email, WhatsApp, Slack Connect, and SMS)\r\n- Customer Timeline\r\n- Session Recording\r\n- Help Center\r\n- AI Chatbot\r\n- Customer Insights \r\n",
+      "batch": "Winter 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Customer Success",
+        "Customer Service",
+        "Customer Support"
+      ],
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "team_size": 18,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/atlas-2",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b037e35a133963bb97d49605d21978ac44ac4f83.png",
+      "launched_at": 1645918305
     },
     {
       "id": 25892,
