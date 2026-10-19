@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-10-12T21:06:25Z",
-  "count": 434,
+  "synced_at": "2026-10-19T18:33:30Z",
+  "count": 438,
   "companies": [
     {
       "id": 30028,
@@ -71,8 +71,8 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Machine Learning"
+        "Machine Learning",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -201,9 +201,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -325,9 +325,9 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Data Science"
+        "Data Science",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA; Remote",
       "regions": [
@@ -361,10 +361,10 @@
         "Marketing"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Design",
-        "Fashion"
+        "Fashion",
+        "AI"
       ],
       "all_locations": "Los Angeles, CA, USA",
       "regions": [
@@ -756,11 +756,11 @@
         "Social"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Augmented Reality",
         "Entertainment",
         "Social",
-        "Metaverse"
+        "Metaverse",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -1314,8 +1314,8 @@
         "Consumer Health and Wellness"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Fitness"
+        "Fitness",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA; Mountain View, CA, USA",
       "regions": [
@@ -1596,11 +1596,11 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
         "Open Source",
-        "DevOps"
+        "DevOps",
+        "AI"
       ],
       "all_locations": "London, England, United Kingdom",
       "regions": [
@@ -2361,7 +2361,6 @@
         "Sales"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "Sales",
         "Sales Enablement",
@@ -3054,9 +3053,9 @@
         "Retail"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "Computer Vision"
+        "Computer Vision",
+        "AI"
       ],
       "all_locations": "Singapore, Singapore; Remote",
       "regions": [
@@ -3128,10 +3127,10 @@
         "Consumer Finance"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Consumer",
-        "Consumer Finance"
+        "Consumer Finance",
+        "AI"
       ],
       "all_locations": "New York City, NY, USA",
       "regions": [
@@ -3657,11 +3656,11 @@
         "Social"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Social",
         "E-commerce",
-        "Creator Economy"
+        "Creator Economy",
+        "AI"
       ],
       "all_locations": "Emeryville, CA, USA",
       "regions": [
@@ -3811,9 +3810,9 @@
         "Gaming"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Assistive Tech",
-        "Gaming"
+        "Gaming",
+        "AI"
       ],
       "all_locations": "Boston, MA, USA",
       "regions": [
@@ -3881,11 +3880,11 @@
         "Home and Personal"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "Marketplace",
         "Consumer",
-        "E-commerce"
+        "E-commerce",
+        "AI"
       ],
       "all_locations": "New York City, NY, USA; New York, NY, USA; Remote",
       "regions": [
@@ -3924,11 +3923,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
         "Compliance",
-        "Security"
+        "Security",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA; Canada",
       "regions": [
@@ -4526,11 +4525,11 @@
         "Apparel and Cosmetics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Machine Learning",
         "Computer Vision",
-        "E-commerce"
+        "E-commerce",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -4669,10 +4668,10 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Productivity",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -4880,10 +4879,10 @@
         "Operations"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Solar Power",
         "Energy",
         "Renewable Energy",
+        "AI",
         "AI Assistant"
       ],
       "all_locations": "Washington, DC, USA; Remote",
@@ -5562,7 +5561,6 @@
       ],
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "Developer Tools",
         "Analytics",
         "AI"
@@ -5598,11 +5596,11 @@
         "Retail"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Retail",
-        "Search"
+        "Search",
+        "AI"
       ],
       "all_locations": "Singapore, Singapore",
       "regions": [
@@ -5744,7 +5742,6 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Machine Learning",
         "SaaS",
@@ -5786,10 +5783,10 @@
         "Consumer Health and Wellness"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Consumer Health Services",
         "Health Tech",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
       "all_locations": "Los Angeles, CA, USA",
       "regions": [
@@ -5924,7 +5921,7 @@
         "Sales"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "all_locations": "New York City, NY, USA",
       "regions": [
@@ -5989,11 +5986,11 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
         "Manufacturing",
         "E-commerce",
-        "Supply Chain"
+        "Supply Chain",
+        "AI"
       ],
       "all_locations": "New York City, NY, USA",
       "regions": [
@@ -6144,6 +6141,42 @@
       "launched_at": 1689906842
     },
     {
+      "id": 29080,
+      "name": "Smobi",
+      "slug": "smobi",
+      "former_names": [],
+      "website": "https://smobi.com/",
+      "one_liner": "Send texts your customers actually want over RCS",
+      "long_description": "Smobi is the AI-powered platform for branded, interactive business messaging, starting with RCS. We help businesses send rich, personalized messages that drive engagement, build trust, and create real conversations.",
+      "batch": "Summer 2023",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Marketing",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "B2B",
+        "API",
+        "Marketing",
+        "SMS",
+        "Telecommunications"
+      ],
+      "all_locations": "New York City, NY, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 4,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/smobi",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d332393d7c5b5f27e1a2f82f8ec54fa8b38e21a1.png",
+      "launched_at": 1689048246
+    },
+    {
       "id": 29118,
       "name": "Structured Labs",
       "slug": "structured-labs",
@@ -6167,9 +6200,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Search"
+        "Search",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -6316,7 +6349,6 @@
         "Analytics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Privacy",
         "Data Science",
         "Data Visualization",
@@ -6350,11 +6382,11 @@
         "Healthcare IT"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "Health Tech",
         "B2B",
-        "Biotech"
+        "Biotech",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -6374,7 +6406,7 @@
       "former_names": [
         "flyflow"
       ],
-      "website": "https://flyflow.ai",
+      "website": "",
       "one_liner": "The easiest way to find high-quality sales leads",
       "long_description": "\"I don\u2019t know how I would have found these leads myself.\"  - YC Founder\r\n\r\nFlyflow enables companies to find prospective customers using AI workflows instead of drowning in tables. Try out our product at app.flyflow.ai.\r\n\r\nHow are we different?\r\n\r\n(1) Higher quality leads: get to a list that\u2019s so relevant, you\u2019ll want to spend time getting introduced to people there, instead of sending another 1,000 cold emails\r\n\r\n(2) Incredibly easy to set up: get up and running with a list of prospects in hand  in under 10 minutes\r\n\r\n(3) Integrate the best of different sales tools all in one place: no need to switch between different tabs for web research, filtering by company size, and finding prospect LinkedIns",
       "batch": "Summer 2024",
@@ -6416,9 +6448,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "DevOps"
+        "DevOps",
+        "AI"
       ],
       "all_locations": "London, England, United Kingdom",
       "regions": [
@@ -6556,10 +6588,10 @@
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
       "all_locations": "New York City, NY, USA",
       "regions": [
@@ -6643,6 +6675,35 @@
       "launched_at": 1724647478
     },
     {
+      "id": 30606,
+      "name": "Acrely",
+      "slug": "acrely",
+      "former_names": [
+        "Zetlkast"
+      ],
+      "website": "https://www.acrely.ai",
+      "one_liner": "Enterprise Voice Agents",
+      "long_description": "Acrely enables enterprises to build and deploy enterprise-grade voice agents. With both cloud and on-prem offerings, Acrely empowers organizations to leverage AI for customer service, sales, operations, and more.",
+      "batch": "Summer 2025",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [],
+      "all_locations": "Pittsburgh, PA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 6,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/acrely",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/599629b9dce294f5621aeaf663b76424933bd820.png",
+      "launched_at": 1752517197
+    },
+    {
       "id": 30643,
       "name": "Nuntius",
       "slug": "nuntius",
@@ -6659,8 +6720,8 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Reinforcement Learning"
+        "Reinforcement Learning",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -6691,7 +6752,7 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -6757,8 +6818,8 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Hard Tech"
+        "Hard Tech",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA; Mountain View, CA, USA",
       "regions": [
@@ -7124,7 +7185,7 @@
         "Partly Remote"
       ],
       "team_size": 50,
-      "stage": "Early",
+      "stage": "Growth",
       "url": "https://www.ycombinator.com/companies/duffl",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8906169a88bda866fc7b928a110627276ee2e93f.png",
       "launched_at": 1597006566
@@ -7330,8 +7391,8 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "E-commerce"
+        "E-commerce",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -7624,7 +7685,7 @@
         "Home and Personal"
       ],
       "tags": [
-        "Artificial Intelligence",
+        "AI",
         "Conversational AI",
         "AI Assistant"
       ],
@@ -7995,9 +8056,9 @@
         "Construction"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Construction",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "all_locations": "MH, India",
       "regions": [
@@ -8711,9 +8772,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA; Remote",
       "regions": [
@@ -9157,9 +9218,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "SaaS"
+        "SaaS",
+        "AI"
       ],
       "all_locations": "Stockholm, Stockholm County, Sweden",
       "regions": [
@@ -9224,9 +9285,9 @@
       ],
       "tags": [
         "AI-Enhanced Learning",
-        "Artificial Intelligence",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "all_locations": "Los Angeles, CA, USA",
       "regions": [
@@ -10182,7 +10243,6 @@
         "Consumer Electronics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Neurotechnology",
         "AI"
       ],
@@ -10293,9 +10353,9 @@
       ],
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "Developer Tools",
-        "Machine Learning"
+        "Machine Learning",
+        "AI"
       ],
       "all_locations": "Austin, TX, USA",
       "regions": [
@@ -10398,9 +10458,9 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Infrastructure",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "all_locations": "Seattle, WA, USA",
       "regions": [
@@ -10735,10 +10795,10 @@
         "Medical Devices"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Deep Learning",
         "Digital Health",
-        "Telemedicine"
+        "Telemedicine",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -10804,11 +10864,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "Robotics",
         "Computer Vision",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "all_locations": "Toronto, ON, Canada",
       "regions": [
@@ -11265,10 +11325,10 @@
         "Consumer Electronics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Consumer",
-        "Electronics"
+        "Electronics",
+        "AI"
       ],
       "all_locations": "Bengaluru, KA, India",
       "regions": [
@@ -11511,11 +11571,11 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Sales",
-        "Sales Enablement"
+        "Sales Enablement",
+        "AI"
       ],
       "all_locations": "Auckland, Auckland, New Zealand; Auckland, New Zealand",
       "regions": [
@@ -11756,8 +11816,8 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Machine Learning"
+        "Machine Learning",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -12298,6 +12358,45 @@
       "launched_at": 1643229196
     },
     {
+      "id": 25866,
+      "name": "Ponyrun",
+      "slug": "ponyrun",
+      "former_names": [
+        "Asparagus",
+        "Nimbus"
+      ],
+      "website": "http://www.ponyrun.ai",
+      "one_liner": "Automate prospect research at scale",
+      "long_description": "Ponyrun evaluates people for you. We help you answer questions like: Should you sell to them? Are they a good fit for your product? Should you interview them? \r\n\r\nIts easy to use. Give it a search URL or a list of people. Tell Ponyrun what you want to evaluate the person on. And Ponyrun will go through the person's information (e.g. LinkedIn), and evaluate them.",
+      "batch": "Winter 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Operations",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "tags": [
+        "Analytics",
+        "Sales",
+        "Operations",
+        "AI",
+        "AI Assistant"
+      ],
+      "all_locations": "San Francisco, CA, USA; Remote",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "team_size": 3,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/ponyrun",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a6aa11f944dc1a5cb37880b3a981988db91d193.png",
+      "launched_at": 1644859951
+    },
+    {
       "id": 25360,
       "name": "Pursuit",
       "slug": "pursuit-2",
@@ -12425,9 +12524,9 @@
         "Food and Beverage"
       ],
       "tags": [
-        "Artificial Intelligence",
         "E-commerce",
-        "Food Tech"
+        "Food Tech",
+        "AI"
       ],
       "all_locations": "Ibadan, YO, Nigeria",
       "regions": [
@@ -12957,7 +13056,6 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Productivity",
         "AI"
@@ -13201,11 +13299,11 @@
         "Marketing"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Productivity",
         "Sales Enablement",
         "Marketing",
-        "Customer Support"
+        "Customer Support",
+        "AI"
       ],
       "all_locations": "Paris, \u00cele-de-France, France; Remote",
       "regions": [
@@ -13338,7 +13436,7 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -13401,9 +13499,9 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "all_locations": "New York City, NY, USA",
       "regions": [
@@ -13471,9 +13569,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "DevOps",
+        "AI",
         "AI Assistant"
       ],
       "all_locations": "San Francisco, CA, USA",
@@ -13509,7 +13607,6 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Generative AI",
         "AI"
@@ -13849,8 +13946,8 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "E-commerce",
+        "AI",
         "Recommendation System"
       ],
       "all_locations": "San Francisco, CA, USA; Remote",
@@ -14192,11 +14289,11 @@
         "Legal"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "B2B",
         "Legal",
-        "LegalTech"
+        "LegalTech",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -14264,8 +14361,8 @@
         "Insurance"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Health Insurance",
+        "AI",
         "AI Assistant"
       ],
       "all_locations": "San Francisco, CA, USA",
@@ -14491,10 +14588,10 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Open Source",
         "Enterprise",
+        "AI",
         "Databases"
       ],
       "all_locations": "San Francisco, CA, USA",
@@ -14528,10 +14625,10 @@
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Consumer",
-        "Search"
+        "Search",
+        "AI"
       ],
       "all_locations": "Boston, MA, USA",
       "regions": [
@@ -14625,11 +14722,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Deep Learning",
         "Developer Tools",
         "Machine Learning",
-        "Data Science"
+        "Data Science",
+        "AI"
       ],
       "all_locations": "Seattle, WA, USA",
       "regions": [
@@ -14659,7 +14756,6 @@
         "Analytics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Analytics",
         "Data Science",
         "Data Engineering",
@@ -14696,10 +14792,10 @@
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "Digital Health",
         "Enterprise Software",
+        "AI",
         "AI Assistant"
       ],
       "all_locations": "San Francisco, CA, USA",
@@ -14835,11 +14931,11 @@
         "Productivity"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "Consumer",
         "B2B",
-        "Productivity"
+        "Productivity",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -14871,9 +14967,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "all_locations": "Bengaluru, KA, India",
       "regions": [
@@ -14903,9 +14999,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Open Source"
+        "Open Source",
+        "AI"
       ],
       "all_locations": "San Francisco, CA, USA",
       "regions": [
@@ -15052,6 +15148,36 @@
       "url": "https://www.ycombinator.com/companies/sublingual",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c536945e04bdc8b405d2bb35c81631f9b7c3c738.png",
       "launched_at": 1740613527
+    },
+    {
+      "id": 31084,
+      "name": "Klaus AI",
+      "slug": "klaus-ai",
+      "former_names": [
+        "Bits"
+      ],
+      "website": "https://klausai.com",
+      "one_liner": "Fast and Safe OpenClaw on the cloud",
+      "long_description": "Get your personal OpenClaw instance on the cloud and connected to your Slack or other messaging app in 3 minutes. Pre-installed security features and common skills. ",
+      "batch": "Winter 2026",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Infrastructure",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/klaus-ai",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6ad7cbe9bb51e9d5c0dea0e9dc6f1d62f8da6903.png",
+      "launched_at": 1770051535
     },
     {
       "id": 31120,
