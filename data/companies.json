@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-10-19T18:33:30Z",
-  "count": 438,
+  "synced_at": "2026-10-26T18:30:30Z",
+  "count": 443,
   "companies": [
     {
       "id": 30028,
@@ -3609,7 +3609,7 @@
       "name": "Quest",
       "slug": "quest",
       "former_names": [],
-      "website": "http://quest.app",
+      "website": "http://gaal.co/quest",
       "one_liner": "Audio career advice",
       "long_description": "Quest is a Q&A app where experts answer questions in short audio clips. We\u2019re starting with career advice, hosting founders and operators from YC and companies like Google, who share intimate and personal stories about work you've never heard before.",
       "batch": "Summer 2021",
@@ -6704,6 +6704,39 @@
       "launched_at": 1752517197
     },
     {
+      "id": 30603,
+      "name": "Closera",
+      "slug": "closera",
+      "former_names": [
+        "VueSpace AI"
+      ],
+      "website": "https://closera.com",
+      "one_liner": "AI Shopping Agent for Your Ecommerce Store",
+      "long_description": "",
+      "batch": "Summer 2025",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Generative AI",
+        "B2B",
+        "AI"
+      ],
+      "all_locations": "New York City, NY, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/closera",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ff4023cc85097ec825f74cc6019f8b85ea20321a.png",
+      "launched_at": 1751847740
+    },
+    {
       "id": 30643,
       "name": "Nuntius",
       "slug": "nuntius",
@@ -9491,6 +9524,41 @@
       "launched_at": 1614699354
     },
     {
+      "id": 22826,
+      "name": "FifthTry",
+      "slug": "fifthtry",
+      "former_names": [
+        "fifthtry"
+      ],
+      "website": "https://www.FifthTry.com",
+      "one_liner": "Continuous Documentation To End Documentation Rot",
+      "long_description": "FifthTry is a Notion-like documentation tool designed to end documentation rot. We integrate with GitHub and block code changes from getting deployed till documentation has been updated and approved. We call this Continuous Documentation.\r\n",
+      "batch": "Winter 2021",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Productivity",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "tags": [
+        "Documents",
+        "Developer Tools"
+      ],
+      "all_locations": "Bengaluru, KA, India",
+      "regions": [
+        "India",
+        "South Asia",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 4,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/fifthtry",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/552447facd8d9e007c6306d2f307ff1eee8ac30a.png",
+      "launched_at": 1616247173
+    },
+    {
       "id": 23065,
       "name": "Finantier",
       "slug": "finantier",
@@ -12180,6 +12248,41 @@
       "launched_at": 1648660054
     },
     {
+      "id": 26183,
+      "name": "Pantore Pay",
+      "slug": "pantore-pay",
+      "former_names": [
+        "Smart Kitchen",
+        "Pantore"
+      ],
+      "website": "https://www.pantorepay.com.br",
+      "one_liner": "Working capital for Brazilian restaurants",
+      "long_description": "Pantore Pay is the solution for restaurants cash flow issues and allows restaurants to shop for supplies and pay any other bills using Pantore's credit line.",
+      "batch": "Winter 2022",
+      "status": "Inactive",
+      "industry": "Fintech",
+      "subindustry": "Fintech",
+      "industries": [
+        "Fintech"
+      ],
+      "tags": [
+        "Fintech",
+        "Lending"
+      ],
+      "all_locations": "S\u00e3o Paulo, SP, Brazil",
+      "regions": [
+        "Brazil",
+        "Latin America",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 25,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/pantore-pay",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/65917590bece98a83ec996e2cd822a5946a8451e.png",
+      "launched_at": 1642009581
+    },
+    {
       "id": 25357,
       "name": "PeakPath",
       "slug": "peakpath",
@@ -14841,6 +14944,39 @@
       "launched_at": 1709140378
     },
     {
+      "id": 29382,
+      "name": "Soundry AI",
+      "slug": "soundry-ai",
+      "former_names": [],
+      "website": "https://soundry.ai/",
+      "one_liner": "Remix any song into any style",
+      "long_description": "We build generative AI tools that enhance the fan engagement experience. Want to remix Taylor Swift in the style of Slayer? Now you can with our new product Groove. ",
+      "batch": "Winter 2024",
+      "status": "Inactive",
+      "industry": "Consumer",
+      "subindustry": "Consumer -> Content",
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "tags": [
+        "Social Media",
+        "Music",
+        "AI",
+        "AI Assistant"
+      ],
+      "all_locations": "Seattle, WA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/soundry-ai",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a8248327c7bdfb14b2d547e4250131e4353d614.png",
+      "launched_at": 1707192752
+    },
+    {
       "id": 29206,
       "name": "Stitch Technologies",
       "slug": "stitch-technologies",
@@ -15114,6 +15250,37 @@
       "url": "https://www.ycombinator.com/companies/altrina",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/23ee7aa773e16f7887979b0dcfa61db69ba9fd25.png",
       "launched_at": 1736185270
+    },
+    {
+      "id": 30255,
+      "name": "Olive",
+      "slug": "olive",
+      "former_names": [],
+      "website": "https://fromolive.com",
+      "one_liner": "Build internal tools with AI",
+      "long_description": "",
+      "batch": "Winter 2025",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Productivity",
+        "Team Collaboration",
+        "AI"
+      ],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 2,
+      "stage": "Growth",
+      "url": "https://www.ycombinator.com/companies/olive",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/544faf85c3fb3b0e5acf3a985a6a1ce535df4377.png",
+      "launched_at": 1740018718
     },
     {
       "id": 30216,
