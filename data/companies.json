@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-10-26T18:30:30Z",
-  "count": 443,
+  "synced_at": "2026-11-02T21:33:47Z",
+  "count": 446,
   "companies": [
     {
       "id": 30028,
@@ -51,6 +51,43 @@
       "url": "https://www.ycombinator.com/companies/gait",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dd4a0ac111eef37a235327e872f43f243700db2.png",
       "launched_at": 1728969633
+    },
+    {
+      "id": 30048,
+      "name": "Matcha",
+      "slug": "astrix-health",
+      "former_names": [
+        "Astrix Health"
+      ],
+      "website": "https://www.matcha-health.com",
+      "one_liner": "The best way to hire clinical talent.",
+      "long_description": "We're building Matcha, the faster, smarter way to hire clinical talent\u2014helping hospitals find active, qualified candidates at a fraction of the time and cost of job boards or headhunters.\r\n\r\nMatcha engages candidates at scale, matching them to your organization by qualifications and cultural fit. Recruiters save time, hospitals save money, and candidates get a better experience\u2014a radically better hiring model for everyone involved.",
+      "batch": "Fall 2024",
+      "status": "Inactive",
+      "industry": "Healthcare",
+      "subindustry": "Healthcare",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Machine Learning",
+        "Marketplace",
+        "Recruiting",
+        "Healthcare",
+        "AI"
+      ],
+      "all_locations": "New York City, NY, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/astrix-health",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/03a2402a95d35a5f582628b40db3166e9aba2e26.png",
+      "launched_at": 1728327995
     },
     {
       "id": 30016,
@@ -780,7 +817,7 @@
       "name": "In Stock",
       "slug": "in-stock",
       "former_names": [],
-      "website": "https://instock.org",
+      "website": null,
       "one_liner": "Find any product, in stock nearby",
       "long_description": "In Stock makes it easy to shop from local stores and get it delivered that day.  ",
       "batch": "Summer 2020",
@@ -1230,7 +1267,7 @@
         "Tippi",
         "Uni"
       ],
-      "website": "https://getonekey.io",
+      "website": null,
       "one_liner": "Find the most profitable sites to build EV charging station",
       "long_description": "Find the most profitable sites to build EV charging station",
       "batch": "Summer 2020",
@@ -1694,7 +1731,7 @@
         "Tango Builder (formerly Jarvis Design)",
         "Tango Builder"
       ],
-      "website": "https://www.tangobuilder.com",
+      "website": null,
       "one_liner": "TANGObuilder automates structural engineers jobs. ",
       "long_description": "Today the building design process is cumbersome and expensive. Architects submit their design to structural engineers for validation. Engineers need to design all structural elements such as walls, columns, and beams to ensure the structure will not collapse and complies with regulations.  The structural engineer needs four to six weeks to generate the initial solution. The engineer will submit his proposal to the architect and then engage in an extensive back and forth discussion until they agree on a satisfying solution. TANGObuilder generates the building structural design in real-time, cutting six weeks of the overall process, and reducing material usage by 30%.",
       "batch": "Summer 2020",
@@ -2460,7 +2497,7 @@
       "name": "Gobillion",
       "slug": "gobillion",
       "former_names": [],
-      "website": "https://gobillion.co",
+      "website": null,
       "one_liner": "Pinduoduo for India",
       "long_description": "Gobillion is the Pinduoduo for India, we make e-commerce social by enabling customers to buy together in groups and get great deals!\r\n",
       "batch": "Summer 2021",
@@ -3576,7 +3613,7 @@
       "name": "Protego",
       "slug": "protego",
       "former_names": [],
-      "website": "https://www.protegosolutions.io/",
+      "website": null,
       "one_liner": "We help companies recover lost revenue from chargebacks",
       "long_description": "Protego helps companies recover lost revenue from chargebacks. The company automates chargeback management and dispute processes. It provides real-time monitoring, reporting, and analytics on chargeback information for providing valuable insights into fraudulent consumer behavior.",
       "batch": "Summer 2021",
@@ -3948,7 +3985,7 @@
       "name": "TAG",
       "slug": "tag",
       "former_names": [],
-      "website": "https://tagme.pk/",
+      "website": null,
       "one_liner": "TAG is the First Digital Bank (Chime/Revolut/N26) for Pakistan",
       "long_description": "TAG is setting new standards and changing the way Pakistan banks by building a digital bank for the masses, with an aim to encompass the entire financial life of users, from basic banking such as bank account and Visa Debit card to employer payrolls, salary advances, savings, and neo-brokerage in future.",
       "batch": "Summer 2021",
@@ -4255,7 +4292,7 @@
         "Sematic AI",
         "Sematic"
       ],
-      "website": "https://airtrain.ai",
+      "website": null,
       "one_liner": "No-code data curation for LLM fine-tuning and evaluation.",
       "long_description": "Airtrain AI is a no-code data platform for Large Language Models.\r\n\r\nProprietary AI models such as GPT-4 are very powerful but also very costly, slow, unreliable, and unsecured.\r\n\r\nAs businesses look to scale their AI prototypes into production-grade products, they struggle with large AI bills, slow APIs and large failure rates.\r\nOn the other hand, smaller language models have been proven to be able to perform on-part with large ones with fine-tuned on high-quality datasets.\r\n\r\nAirtrain AI lets AI practitioners explore alternatives to proprietary models, build up training datasets, evaluate, fine-tune, and serve a large selection of open-source LLMs.",
       "batch": "Summer 2022",
@@ -4443,7 +4480,7 @@
         "BricksLLM",
         "Bricks"
       ],
-      "website": "https://www.trybricks.ai/",
+      "website": null,
       "one_liner": "Streamlining LLM application management for enterprises",
       "long_description": "BricksAI is an open-source AI gateway that helps you manage how each of your services is calling different LLM providers.\r\n\r\nYou can create API keys with rate-limits, spend-limits, and expiration dates, then use them to make requests to different LLMs. With our SSO dashboard, you also get (1) role-based access control, and (2) fine-grained metrics (e.g. cost, number of requests, tokens) over each API key.",
       "batch": "Summer 2022",
@@ -4867,7 +4904,7 @@
       "former_names": [
         "Jasmine"
       ],
-      "website": "http://www.jasmine.energy",
+      "website": null,
       "one_liner": "Claim solar incentives with AI",
       "long_description": "Jasmine makes it easy to register, sell, finance, and retire RECs (renewable energy certificates). Our AI can \"read\" unstructured data (CRM notes, PDFs, images, etc) and use that information to complete webforms and filing document. This takes previously manual error prone process and makes it automatic and self-healing. ",
       "batch": "Summer 2022",
@@ -5033,13 +5070,50 @@
       "launched_at": 1660079045
     },
     {
+      "id": 26851,
+      "name": "Mistle",
+      "slug": "mistle",
+      "former_names": [
+        "Ajourney",
+        "Zapi"
+      ],
+      "website": "https://mistle.dev",
+      "one_liner": "Open source background agents",
+      "long_description": "Mistle is the open source alternative to Stripe Minions, Ramp Inspect and Shopify River. Instead of spending months building an internal platform, teams use Mistle to run collaborative background agents from day one.",
+      "batch": "Summer 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "B2B",
+        "Open Source",
+        "AI"
+      ],
+      "all_locations": "Singapore, Singapore; Remote",
+      "regions": [
+        "Singapore",
+        "Southeast Asia",
+        "Remote",
+        "Fully Remote"
+      ],
+      "team_size": 2,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/mistle",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d57b2b10c7e35a1990c9ac0bf09d58abdb4ff9d5.png",
+      "launched_at": 1654527668
+    },
+    {
       "id": 26779,
       "name": "Notebook Labs",
       "slug": "notebook-labs",
       "former_names": [
         "Notebook"
       ],
-      "website": "http://www.notebooklabs.xyz",
+      "website": null,
       "one_liner": "Decentralized, anonymous, and accountable identity on Web3.",
       "long_description": "Notebook solves the Web3 identity problem by using Zero-Knowledge to provide both anonymous proof-of-humanity and credential aggregation. Notebook initially verifies users\u2019 identifying information to ensure that each person has just a single Notebook. Neither Notebook, nor any other company knows the link between a user\u2019s personal information and their Notebook. Once a user\u2019s Notebook account is created they can begin proving their humanity and aggregating their credentials across wallets.\r\n\r\nNotebook can be used to increase the safety of DeFi, governance, and airdrops. With Notebook, creators and communities can run Sybil-resistant airdrops, DAOs can verify the humanity and aggregate the credentials of participants, and lending protocols can build credit scoring systems to offer lower-collateralized loans. ",
       "batch": "Summer 2022",
@@ -5104,7 +5178,7 @@
       "former_names": [
         "Rampay"
       ],
-      "website": "https://www.payfura.com",
+      "website": null,
       "one_liner": "Global payment gateway to buy/sell crypto",
       "long_description": "Payfura is a fiat<>crypto on/off ramp payment gateway for web3 applications. We are a bridge between fiat and crypto so web3 applications can seamlessly onboard users across different geographies with local payment methods.\r\n\r\nKey Features:\r\n- Currencies supported: 150+ fiat currencies, 100+ crypto currencies.\r\n- Regions supported: US, Europe, LATAM, SEA, Africa.\r\n- Payment methods: Credit/Debit cards, E-wallets, Bank transfers and many more.\r\n- Partner Dashboard: A powerful dashboard for partners to get detailed insights and analytics for their orders\r\n- Handle KYC and AML compliances of local regions.\r\n- API and SDK integration.",
       "batch": "Summer 2022",
@@ -5292,7 +5366,7 @@
       "name": "Slauth.io",
       "slug": "slauth-io",
       "former_names": [],
-      "website": "https://slauth.io/",
+      "website": null,
       "one_liner": "The IAM Policy Copilot",
       "long_description": "Slauth.io generates and rightsizes IAM policies in order to save engineering time and secure the organization. We use PR's to suggest what good functional and secure IAM policies should look like and integrate with IaC (Terraform)  to have a seamless end-to-end IAM policy creation and deployment. Save hundreds of DevOps engineering time each year and increase your security to scale faster. \r\n",
       "batch": "Summer 2022",
@@ -5506,7 +5580,7 @@
       "name": "ilumadata",
       "slug": "ilumadata",
       "former_names": [],
-      "website": "https://www.ilumadata.io/",
+      "website": null,
       "one_liner": "Confidently ship analytics code faster with fewer errors",
       "long_description": "We\u2019re retool for data pipelines. We allow less-technical people to edit data pipelines, with easy to use tools.",
       "batch": "Summer 2022",
@@ -5731,7 +5805,7 @@
         "DSensei",
         "Empower"
       ],
-      "website": "https://www.greentally.ai",
+      "website": null,
       "one_liner": "Affordable carbon tracking solution for all businesses",
       "long_description": "GreenTally is a carbon accounting platform built for all businesses that transforms environmental reporting from a complex, expensive ordeal into a streamlined, affordable process. Using LLM, we help companies measure their carbon footprint in hours instead of months.\r\n\r\nGreenTally automates emissions calculations and reporting, enabling businesses to meet regulatory requirements and track reduction targets without the overhead of consultants or dedicated sustainability teams. By making enterprise-grade carbon accounting accessible and practical, GreenTally empowers growing businesses to take control of their sustainability journey.",
       "batch": "Summer 2023",
@@ -6113,7 +6187,7 @@
         "Agent",
         "Ube"
       ],
-      "website": "https://www.sidenote.ai",
+      "website": null,
       "one_liner": "Meeting follow-up, automated",
       "long_description": "Sidenote is a Chrome extension that turns meeting notes into drafted emails, calendar invites, tickets, and reminders.",
       "batch": "Summer 2023",
@@ -6945,7 +7019,7 @@
       "former_names": [
         "Carupi"
       ],
-      "website": "https://www.carupi.com/",
+      "website": null,
       "one_liner": "CARUPI is the world's 1st managed P2P marketplace for used cars",
       "long_description": "Carupi is the world's 1st lightly managed peer-to-peer digital marketplace (\"C2C\"), like Airbnb, for used cars, allowing individuals to safely and conveniently buy and sell cars from home with the push of a button. Differently from pure marketplaces such as craigslist, we take care of every transaction end-to-end (as 'concierges'), from taking car photos at the user's place to advertising his car, managing offers, taking his car (fully insured) to buyers for free at-home test drives, handling paperwork and payment. And differently from dealers or dealer-like companies, we don't use any physical infrastructure or need to buy cars for inventory.",
       "batch": "Winter 2020",
@@ -7575,7 +7649,7 @@
       "name": "Jamiphy",
       "slug": "jamiphy",
       "former_names": [],
-      "website": "https://jamiphy.com",
+      "website": null,
       "one_liner": "TikTok for Musicians",
       "long_description": "Jamiphy is the destination for live music. All you have to do is watch, engage with what you like, skip what you don't, and you'll find an endless stream of live music that feels personalized just for you.\r\n\r\nWe make it easy for you to discover and create your own live music videos by providing easy-to-use tools to view and capture your greatest musical moments. Take your videos to the next level with Jamiphy!",
       "batch": "Winter 2020",
@@ -7779,7 +7853,7 @@
       "name": "Multiverse",
       "slug": "multiverse",
       "former_names": [],
-      "website": "http://www.playmultiverse.com",
+      "website": null,
       "one_liner": "Multiverse is a web-based game creation system inspired by Dungeons &\u2026",
       "long_description": "Multiverse is a web-based game creation system inspired by Dungeons & Dragons and Roblox with a marketplace for assets from A-list creators. We've already partnered with several prominent creators who have millions of followers and millions in revenue, and they're bringing their audiences to Multiverse. We charge 30-60% of those sales based on how much we help the creators make the content.\r\n\r\nCheck out our [gameplay trailer here](https://drive.google.com/file/d/1rPwwhw03HO7uda_YDXBfKfvCZ_fHV795/view?usp=sharing).\r\n\r\nThe best way to get Multiverse is to play it. If you're into games, creativity and representation, hit us up and we'll play with you. ",
       "batch": "Winter 2020",
@@ -7811,7 +7885,7 @@
       "name": "Nimbus",
       "slug": "nimbus",
       "former_names": [],
-      "website": "http://www.nimbus.green",
+      "website": null,
       "one_liner": "Tesla for city dwellers ",
       "long_description": "",
       "batch": "Winter 2020",
@@ -7874,7 +7948,7 @@
         "In Good Company",
         "Orbiter (by In Good Company)"
       ],
-      "website": "http://www.getorbiter.com",
+      "website": null,
       "one_liner": "ML models automatically monitor business performance",
       "long_description": "Orbiter\u2019s ML models monitor business metrics automatically and send alerts when those metrics experience abnormal drops or spikes. Any company can onboard in less than five minutes with just their database credentials - no engineering required. ",
       "batch": "Winter 2020",
@@ -8143,7 +8217,7 @@
       "name": "Protobase",
       "slug": "protobase",
       "former_names": [],
-      "website": "https://www.protobase.io",
+      "website": null,
       "one_liner": "Protobase is a 10x, next-generation spreadsheet.",
       "long_description": "Protobase is a 10x, next-generation spreadsheet. It lets you use things like sheets, grids, and\r\nformulas, with better structures like tables, queries, filters, search, sorting, and more.",
       "batch": "Winter 2020",
@@ -8524,7 +8598,7 @@
       "name": "The Mercer Club",
       "slug": "the-mercer-club",
       "former_names": [],
-      "website": "https://www.themercerclubnyc.com",
+      "website": null,
       "one_liner": "The Mercer Club is a subscription service that allows men to rent\u2026",
       "long_description": "The Mercer Club is e-commerce's first-ever men\u2019s rental service offering luxury and streetwear fashions at affordable pricing\u2014 think of it as Rent the Runway for men. Founded on the principle that fashion should be affordable and accessible, The Mercer Club aims to deliver an assortment of clothing, shoes and accessories to fulfill all a man's wardrobe needs, helping them stay on trend while considering their budget. Customers can rent pieces from well-known streetwear brands such as Yeezy, Nike and Supreme or luxury designers such as Gucci, Margiela, Acne and Balenciaga for as little as $25 a day or a monthly subscription for $75 a month. With the subscription plan, renters get 2 items at a time and swap out each week for another set of 2 items. The process is seamless from beginning to end\u2014 after placing an order, items arrive in 2-3 days in a custom box with a prepaid return shipping label. Our specialized team takes care of any laundering on your behalf and minor wear and tear is covered by us.",
       "batch": "Winter 2020",
@@ -9041,7 +9115,7 @@
         "bewell digital",
         "BeWell digital"
       ],
-      "website": "http://www.bewelldigital.com",
+      "website": null,
       "one_liner": "Building the operating system for diagnosis.",
       "long_description": "4 Billion radiology scans are generated every year, but unfortunately, 1 in 5 reports are wrong and 35% of the studies are delayed. It can be primarily attributed to access and efficiency. BeWell is building the platform for access and efficiency",
       "batch": "Winter 2021",
@@ -9239,7 +9313,7 @@
       "former_names": [
         "Sturdy"
       ],
-      "website": "https://codeball.ai",
+      "website": null,
       "one_liner": "AI-Powered Code Review",
       "long_description": "Codeball finds bugs in your Pull Requests, lets you ship faster and with higher confidence. The Codeball AI is trained on millions of code contributions to recognise risky code changes.",
       "batch": "Winter 2021",
@@ -9563,7 +9637,7 @@
       "name": "Finantier",
       "slug": "finantier",
       "former_names": [],
-      "website": "https://finantier.co",
+      "website": null,
       "one_liner": "Plaid for Southeast Asia",
       "long_description": "Finantier is Plaid for Southeast Asia, providing the infrastructure and data products required by businesses to build the next generation of financial services.",
       "batch": "Winter 2021",
@@ -9671,7 +9745,7 @@
         "Galaxy",
         "Swizzle"
       ],
-      "website": "https://launchpointhq.com",
+      "website": null,
       "one_liner": "",
       "long_description": "",
       "batch": "Winter 2021",
@@ -9737,7 +9811,7 @@
       "former_names": [
         "Brick"
       ],
-      "website": "https://go.build",
+      "website": null,
       "one_liner": "The payments solution for small scale construction. ",
       "long_description": "We're building the trusted payments solution that enables small scale construction companies to grow. We help our customers grow by removing the cashflow strains of slow payments, mainly by:\r\n- Increasing volume of jobs by offering standardized, low-cost initial deposit options for - customers,\r\n- Improving productivity through consistent access to project-based working capital,\r\n- Improving expense management by streamlining their subcontractor payout process, and\r\n- Removing client collections risk from the construction company",
       "batch": "Winter 2021",
@@ -10886,7 +10960,7 @@
       "name": "Queenly",
       "slug": "queenly",
       "former_names": [],
-      "website": "https://queenly.com/",
+      "website": null,
       "one_liner": "Leading marketplace for formalwear",
       "long_description": "Live on iOS, Android and our web app (queenly.com). \r\n\r\nQueenly is the leading online marketplace for the formalwear industry. We are a Y Combinator company and backed by some of the top VC's in Silicon Valley such as Andreessen Horowitz (a16z), NextView Ventures, The House Fund, and more. The Queenly cofounders were also recently featured on the Forbes 30 Under 30: Art and Style cover for 2022. \r\n\r\nAt Queenly, our mission is simple: make every woman look and feel like a queen. We strive to empower women and to feel confidently beautiful in their own skin by providing cutting-edge technology, seamless logistics, white-glove customer service and unique expertise within the industry.",
       "batch": "Winter 2021",
@@ -10960,7 +11034,7 @@
         "Debrief",
         "Slashauth"
       ],
-      "website": "https://www.slashauth.com",
+      "website": null,
       "one_liner": "The solution for fine-grained access control in web3",
       "long_description": "Slashauth builds a developer platform for web3 enabled apps. Slashauth\u2019s platform provides login functionality, role based access control, data storage, and more to any web3 enabled application.",
       "batch": "Winter 2021",
@@ -11591,7 +11665,7 @@
       "former_names": [
         "Four2"
       ],
-      "website": "https://cherry.ai/",
+      "website": null,
       "one_liner": "Promotion management platform",
       "long_description": "Cherry is the only AI promotion management platform. We help online stores boost revenue and increase their marketing ROI by delivering and tracking dynamic promotions. \r\n\r\nCherry uses AI to improve the targeting of promotions to new and existing customers in real-time\r\n\r\nCherry has helped its customers increase conversion rates by up to 51%. \r\n\r\nCherry is lead by an expert founding team. Isaac has a PhD in maths and delivered AI at McKinsey, Rian is an ex-Microsoft software engineer.\r\n\r\n",
       "batch": "Winter 2022",
@@ -12717,7 +12791,7 @@
       "name": "Suggestr",
       "slug": "suggestr",
       "former_names": [],
-      "website": "https://suggestr.co",
+      "website": null,
       "one_liner": "Amazon-level personalization for Shopify merchants",
       "long_description": "Suggestr is a self-serve, no-code personalization solution for the 20M+ e-commerce brands that sell on platforms like Shopify. Marketplaces like Amazon drive up to 30% of their sales from personalized surfaces (recommendations, bundles, frequently bought together, et cetera). They have large data science teams that build such in-house recommendation engines. However, DTC brands can't afford to do this, and they don't have enough customer data to make the conventional recommendation approaches work. Suggestr uses innovative multi-modal AI technology that sees and understands products (needs 100x less data), allowing it to work with brands of all sizes (SME, mid-market, enterprise). The solution takes less than 30 minutes to integrate and helps merchants increase online store revenues by up to 10% with AI-driven upsells and cross-sells.",
       "batch": "Winter 2022",
@@ -13072,7 +13146,7 @@
       "former_names": [
         "Sahale"
       ],
-      "website": "https://www.cakework.com",
+      "website": null,
       "one_liner": "API that adds cloud hosting to any developer platform",
       "long_description": "We make it possible to build a serverless cloud platform that hosts custom user code with just APIs and no infrastructure team. For example, an open source framework can build a cloud offering that deploys their users code from Github or local dev environments in days instead of months. ",
       "batch": "Winter 2023",
@@ -13492,7 +13566,7 @@
       "former_names": [
         "Nebula"
       ],
-      "website": "https://indexical.dev/",
+      "website": null,
       "one_liner": "AI-powered data extraction engine",
       "long_description": "",
       "batch": "Winter 2023",
@@ -13528,7 +13602,7 @@
       "former_names": [
         "WalletWatch"
       ],
-      "website": "https://www.tryinterlock.com/",
+      "website": null,
       "one_liner": "We are still in stealth mode.",
       "long_description": "",
       "batch": "Winter 2023",
@@ -14106,7 +14180,7 @@
         "Woeden",
         "Technician"
       ],
-      "website": "https://www.technician.dev",
+      "website": null,
       "one_liner": "Resolve PR check failures instantly with AI",
       "long_description": "Technician helps you get your pull requests merged faster. We do this by listening to your check run logs for failures and provide suggested changes that you can instantly commit to your branch.",
       "batch": "Winter 2023",
@@ -14348,7 +14422,7 @@
         "Archipelago",
         "Rift"
       ],
-      "website": "https://rift.com",
+      "website": null,
       "one_liner": "B2B lead routing made simple",
       "long_description": "rift is B2B lead routing made simple.\r\n\r\nInbound workflows leak revenue at every step. Routing is manual. Calendar links are generic. No-shows go unrecovered. The handoff between form fill and booked meeting is where pipeline quietly dies.\r\n\r\nrift fixes that. One system for the full inbound lifecycle:\r\n> Capture. Custom web forms that collect and qualify leads in real time.\r\n> Route. Instant validation, enrichment, and assignment to the right rep.\r\n> Schedule. Top prospects get the best calendar slots, matched to real availability.\r\n> Recover. No-shows and ghosted leads are automatically re-engaged.\r\n\r\nrift is built by growth engineers who ran inbound at high-velocity B2B companies and got tired of watching pipeline fall through the cracks.\r\n\r\nrift is the system we wished existed \u2014 opinionated, fast, and wired into the tools sales teams already use: HubSpot, Apollo, Google Calendar, Gmail, Slack, Zoom, Stripe, and more.\r\n\r\nBacked by Y Combinator (W23) and Sequoia Capital.\r\n\r\nnever lose an inbound lead \u2192 rift.com\r\n",
       "batch": "Winter 2023",
@@ -14380,7 +14454,7 @@
       "name": "Abel",
       "slug": "abel",
       "former_names": [],
-      "website": "https://www.tryabel.com",
+      "website": null,
       "one_liner": "Transforming document review for litigation teams",
       "long_description": "Abel transforms law firm document review workflows, eliminating the need to choose between depth and breadth. Attorneys use Abel to answer nuanced questions based on the context spread across thousands of documents.",
       "batch": "Winter 2024",
@@ -14486,7 +14560,7 @@
       "former_names": [
         "Teo"
       ],
-      "website": "https://celest.dev",
+      "website": null,
       "one_liner": "The Vercel of Flutter",
       "long_description": "Celest is a backend-as-a-service for Flutter and Dart developers. It empowers Flutter developers with the tools and capabilities they need to become full-stack developers. We are introducing \"Cloud Widgets\", a set of primitives which enable you to declaratively define every piece of your backend and infrastructure in Dart.\r\n\r\nAs the role of the front-end developer evolves towards full-stack proficiency, we recognize that existing tools have fallen short for those specializing in Flutter. Using the programming language and patterns Flutter developers already know from building their frontend, Celest enables developers to build and connect their apps to their backend with no additional tooling.\r\n\r\nWe enable Flutter developers to concentrate on building features and delivering value to their customers rather than learning additional domains and fragmenting themselves across disparate toolchains.",
       "batch": "Winter 2024",
@@ -14580,7 +14654,7 @@
         "CodeMuse",
         "Onedoc"
       ],
-      "website": "https://www.fileforge.com/",
+      "website": null,
       "one_liner": "API For PDF Document Workflows",
       "long_description": "Fileforge is an API for PDF document workflows. \r\n\r\nWith Fileforge, you can generate, manipulate, host, share, sign and track your documents - all in on place. Our open-source library helps developers build complex documents that integrate with our API and external services to build document-centric workflows.",
       "batch": "Winter 2024",
@@ -14751,7 +14825,7 @@
       "former_names": [
         "CurioMD"
       ],
-      "website": "https://themangohealth.com",
+      "website": null,
       "one_liner": "AI Therapy for OCD",
       "long_description": "Mango Health is building the market-leading AI Guide for OCD. OCD is often hidden in plain sight, with research showing it takes an average of 12 years to diagnose, and nearly 2% of the world population affected.  We are on a mission to improve accessibility to the best resources available. With a focus on ERP like sessions, 24/7 support, and countless AI-guided lessons - we are looking to bring motivation and meaning back to the lives of millions at a fraction of the cost of traditional treatment. \r\n\r\nStart today at TheMangoHealth.com :)",
       "batch": "Winter 2024",
@@ -14771,6 +14845,39 @@
       "url": "https://www.ycombinator.com/companies/mango-health",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7bf41149065e310ebb8e2e20ade6302ae5d9a50.png",
       "launched_at": 1707477404
+    },
+    {
+      "id": 29473,
+      "name": "OddsView",
+      "slug": "oddsview",
+      "former_names": [
+        "Lineflare",
+        "OpenOdds"
+      ],
+      "website": "https://oddsview.com",
+      "one_liner": "The Bloomberg Terminal of Sports Betting",
+      "long_description": "OddsView is the one-stop-shop for sports betting tools and media. \r\n\r\nThe OddsView terminal allows users to browse millions of odds updated in real time to find the best bets. Users can access familiar features like positive expected value and arbitrage finders, as well as exclusive tools such as historical odds charts, all within a single platform.",
+      "batch": "Winter 2024",
+      "status": "Inactive",
+      "industry": "Consumer",
+      "subindustry": "Consumer",
+      "industries": [
+        "Consumer"
+      ],
+      "tags": [
+        "Sports Tech",
+        "Consumer"
+      ],
+      "all_locations": "New York City, NY, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 5,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/oddsview",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2d005af7cd2923d6f72a4eb0931818b5877bf89e.png",
+      "launched_at": 1709856073
     },
     {
       "id": 29285,
