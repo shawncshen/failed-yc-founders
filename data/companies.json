@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-11-02T21:33:47Z",
-  "count": 446,
+  "synced_at": "2026-11-09T22:07:29Z",
+  "count": 448,
   "companies": [
     {
       "id": 30028,
@@ -9281,7 +9281,7 @@
       "name": "CoVerified",
       "slug": "coverified",
       "former_names": [],
-      "website": "https://www.coverified.us/",
+      "website": null,
       "one_liner": "Using infection data to keep organizations safe",
       "long_description": "CoVerified builds integrated software that uses COVID-19 test results, vaccine records and symptom data to verify real-time compliance and help organizations re-open safely.",
       "batch": "Winter 2021",
@@ -10135,7 +10135,7 @@
         "Newzip",
         "Maindrop"
       ],
-      "website": "http://launchcaster.xyz",
+      "website": null,
       "one_liner": "Maker of consumer crypto apps: Launchcaster, Frameboard, Maindrop",
       "long_description": "Launcher Labs made consumer crypto apps, including Launchcaster (acq by Orange DAO), a leading community for launching and discovering crypto projects; Frameboard, a visual curation app and protocol; Launcher Actions, a smart contract mini-app platform; and Maindrop, a Venmo for NFTs.",
       "batch": "Winter 2021",
@@ -12112,6 +12112,42 @@
       "url": "https://www.ycombinator.com/companies/livedocs",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ce0c55378b1978172dcaae2ec40f66f80a955ff6.png",
       "launched_at": 1645977565
+    },
+    {
+      "id": 25724,
+      "name": "Lovage",
+      "slug": "lovage",
+      "former_names": [
+        "Lovage Labs"
+      ],
+      "website": "https://getlovage.com",
+      "one_liner": "Automatically fill empty appointment slots for beauty professionals",
+      "long_description": "Lovage helps barbers and stylists fill empty appointment slots and get more clients.\r\n\r\nBeauty professionals frequently have gaps in their schedules due to cancellations, no-shows, and uneven demand. Lovage turns that unused availability into booked appointments.\r\n\r\nWe integrate with booking systems to detect open slots, generate on-brand content, and distribute it to channels like Instagram where clients can instantly book.\r\n\r\nThe result is more bookings, higher utilization, and increased revenue without relying on ads or manual marketing.",
+      "batch": "Winter 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Marketing",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Marketing",
+        "SMB",
+        "AI"
+      ],
+      "all_locations": "Orem, UT, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 3,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/lovage",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8bc1e9f862fee999c4e72bc8a67f0dedc5205775.png",
+      "launched_at": 1642140655
     },
     {
       "id": 25996,
@@ -15542,6 +15578,34 @@
       "url": "https://www.ycombinator.com/companies/q2q",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6c42d7cabd8a666e0d6369ef40a058fca967f90.png",
       "launched_at": 1768420792
+    },
+    {
+      "id": 31194,
+      "name": "Valence",
+      "slug": "valence",
+      "former_names": [],
+      "website": "https://valence.trade",
+      "one_liner": "Unified prediction markets trading platform",
+      "long_description": "Valence is a unified trading platform for prediction markets. We provide infrastructure to aggregate and execute contracts across Kalshi, Polymarket, and other platforms, surface arbitrage and mispricing opportunities in real time, and give systematic traders the API and backtesting tools they need to build and execute data-driven strategies on anything.",
+      "batch": "Winter 2026",
+      "status": "Inactive",
+      "industry": "Fintech",
+      "subindustry": "Fintech -> Consumer Finance",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "tags": [],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada"
+      ],
+      "team_size": 3,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/valence",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/355e8c5b3746af19fb0b6ef6149b2028474fbf0a.png",
+      "launched_at": 1772497537
     }
   ]
 }
