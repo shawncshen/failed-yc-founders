@@ -19,8 +19,8 @@
     "Winter 2025",
     "Winter 2026"
   ],
-  "synced_at": "2026-11-16T21:48:49Z",
-  "count": 449,
+  "synced_at": "2026-11-23T23:38:01Z",
+  "count": 451,
   "companies": [
     {
       "id": 30028,
@@ -5291,7 +5291,7 @@
       "former_names": [
         "Pivo Technology"
       ],
-      "website": "http://www.pivo.africa",
+      "website": null,
       "one_liner": "Digital Bank for Freight Carriers in Africa.",
       "long_description": "Africa has experienced robust macroeconomic growth over the last five years and was the second fastest growing region in 2019 with a GDP of $2.6T, a 3.7% increase on 2018. Nigeria makes up $0.5T, 50% of which comes from Small and Medium Enterprises (SMEs) \u2013 a huge number of these operate within large manufacturing supply chains.\r\n\r\nStarting with Freight Carriers Pivo makes financial services easily accessible for truck owners and truck drivers by providing a bank account, debit card and digital invoicing tools so they can get paid faster and avoid cash flow problems.\r\n\r\nThis will be further augmented by more fundamental financial products such as credit, transaction management, and expense management, to improve their cashflow. ",
       "batch": "Summer 2022",
@@ -5436,11 +5436,47 @@
       "launched_at": 1655427470
     },
     {
+      "id": 26705,
+      "name": "Stackup",
+      "slug": "stackup",
+      "former_names": [],
+      "website": "https://www.stackup.fi",
+      "one_liner": "Stackup helps businesses manage their crypto assets.",
+      "long_description": "Stackup is transforming how businesses manage their on-chain operations by offering a smart account platform designed to simplify and automate complex blockchain tasks. As the need for seamless, secure, and efficient crypto transactions grows, Stackup provides centralized control over decentralized assets, allowing businesses to take charge of every detail of their operations with ease. Our platform integrates advanced security and adaptive features to eliminate the chaos of traditional crypto wallets, empowering businesses to manage their crypto stack in real-time. Whether you\u2019re orchestrating large-scale transactions or ensuring complete transparency, Stackup\u2019s solution brings order and precision to blockchain management\u2014turning crypto chaos into structured, seamless business flow.",
+      "batch": "Summer 2022",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Developer Tools",
+        "SaaS",
+        "Crypto / Web3",
+        "B2B",
+        "Open Source"
+      ],
+      "all_locations": "Los Angeles, CA, USA; Remote",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Fully Remote"
+      ],
+      "team_size": 4,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/stackup",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38fd40d4e57e1156a5bd35a1847bcef93e0e3b85.png",
+      "launched_at": 1653642506
+    },
+    {
       "id": 26780,
       "name": "Stellar",
       "slug": "stellar",
       "former_names": [],
-      "website": "http://www.stellarapp.io",
+      "website": null,
       "one_liner": "AI-powered business goals",
       "long_description": "A fool-proof goals platform using GPT to help teams write and track SMART goals at every level. Automates manual, redundant tasks that take time away from team\u2019s high-impact contributions.\r\n",
       "batch": "Summer 2022",
@@ -5880,7 +5916,7 @@
       "former_names": [
         "Leafpress"
       ],
-      "website": "https://www.trycardinal.ai/",
+      "website": null,
       "one_liner": "AI Energy Management",
       "long_description": "AI-Native Utility Management",
       "batch": "Summer 2023",
@@ -9955,7 +9991,7 @@
         "HuddleFire",
         "Remix"
       ],
-      "website": "https://www.huddlefire.com",
+      "website": null,
       "one_liner": "Turbocharge customer acquisition through exclusive SaaS partnerships",
       "long_description": "Leverage partnerships with other SaaS companies, through Huddlefire, to accelerate your customer acquisition.",
       "batch": "Winter 2021",
@@ -14983,6 +15019,45 @@
       "url": "https://www.ycombinator.com/companies/patchwork",
       "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/adeef8e1af9dbd08cd58abd347c0b5085123d33a.png",
       "launched_at": 1708993395
+    },
+    {
+      "id": 29332,
+      "name": "Polished",
+      "slug": "polished",
+      "former_names": [
+        "Double",
+        "Pillar"
+      ],
+      "website": "https://polished.ad",
+      "one_liner": "Generate ads. Iterate till perfect.",
+      "long_description": "With Polished, you create finished ads (video or static) in minutes.\r\nThen you refine it in plain English, until it's exactly what you had in mind.",
+      "batch": "Winter 2024",
+      "status": "Inactive",
+      "industry": "B2B",
+      "subindustry": "B2B -> Engineering, Product and Design",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Developer Tools",
+        "SaaS",
+        "B2B",
+        "Advertising",
+        "AI"
+      ],
+      "all_locations": "San Francisco, CA, USA",
+      "regions": [
+        "United States of America",
+        "America / Canada",
+        "Remote",
+        "Partly Remote"
+      ],
+      "team_size": null,
+      "stage": "Early",
+      "url": "https://www.ycombinator.com/companies/polished",
+      "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6b130da6813f93f556cf04be9132b6ba506b4fc.png",
+      "launched_at": 1701750687
     },
     {
       "id": 29375,

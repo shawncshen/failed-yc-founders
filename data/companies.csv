@@ -149,11 +149,12 @@ id,name,slug,batch,status,industry,subindustry,one_liner,website,all_locations,t
 27048,Payfura,payfura,Summer 2022,Inactive,Fintech,Fintech -> Payments,Global payment gateway to buy/sell crypto,,"Delaware City, DE, USA; Delhi, DL, India; Remote",2,https://www.ycombinator.com/companies/payfura
 26676,Penguin AI,penguin-ai,Summer 2022,Inactive,B2B,B2B -> Sales,AI Sales Rep for Website Intent Signals,http://penguinai.app,"San Francisco, CA, USA",3,https://www.ycombinator.com/companies/penguin-ai
 26808,Phind,phind,Summer 2022,Inactive,Consumer,Consumer,AI search engine,https://phind.com,"San Francisco, CA, USA",4,https://www.ycombinator.com/companies/phind
-27262,Pivo Technology Inc,pivo-technology-inc,Summer 2022,Inactive,Fintech,Fintech,Digital Bank for Freight Carriers in Africa.,http://www.pivo.africa,"Lagos, LA, Nigeria; LA, Nigeria",11,https://www.ycombinator.com/companies/pivo-technology-inc
+27262,Pivo Technology Inc,pivo-technology-inc,Summer 2022,Inactive,Fintech,Fintech,Digital Bank for Freight Carriers in Africa.,,"Lagos, LA, Nigeria; LA, Nigeria",11,https://www.ycombinator.com/companies/pivo-technology-inc
 26715,Ruleset,ruleset,Summer 2022,Inactive,B2B,B2B,The SaaS Decision Engine for Lenders,https://ruleset.ai,"San Francisco, CA, USA",1,https://www.ycombinator.com/companies/ruleset
 26847,Slauth.io,slauth-io,Summer 2022,Inactive,B2B,B2B -> Infrastructure,The IAM Policy Copilot,,"Tel Aviv-Yafo, Tel Aviv District, Israel",4,https://www.ycombinator.com/companies/slauth-io
 27155,Sonnet,sonnet,Summer 2022,Inactive,B2B,B2B -> Sales,"Meeting notes and CRM, automated",,"San Francisco, CA, USA",7,https://www.ycombinator.com/companies/sonnet
-26780,Stellar,stellar,Summer 2022,Inactive,B2B,B2B,AI-powered business goals,http://www.stellarapp.io,"San Francisco, CA, USA",3,https://www.ycombinator.com/companies/stellar
+26705,Stackup,stackup,Summer 2022,Inactive,B2B,"B2B -> Engineering, Product and Design",Stackup helps businesses manage their crypto assets.,https://www.stackup.fi,"Los Angeles, CA, USA; Remote",4,https://www.ycombinator.com/companies/stackup
+26780,Stellar,stellar,Summer 2022,Inactive,B2B,B2B,AI-powered business goals,,"San Francisco, CA, USA",3,https://www.ycombinator.com/companies/stellar
 26706,Superpowered AI,superpowered-ai,Summer 2022,Inactive,B2B,B2B,API for Retrieval Augmented Generation,https://superpowered.ai,"Salt Lake City, UT, USA; Remote",4,https://www.ycombinator.com/companies/superpowered-ai
 26659,Weltio,weltio,Summer 2022,Inactive,Fintech,Fintech -> Asset Management,First LatAm W3 WealthTech for AutoInvesting in securities & crypto,https://www.weltio.com,"Mexico City, CDMX, Mexico; Remote",15,https://www.ycombinator.com/companies/weltio
 26876,Zoltar Labs,zoltar-labs,Summer 2022,Inactive,B2B,B2B,AI-assisted CX tool built with your knowledge.,https://www.zoltarlabs.com/,"New York City, NY, USA; Mountain View, CA, USA",9,https://www.ycombinator.com/companies/zoltar-labs
@@ -165,7 +166,7 @@ id,name,slug,batch,status,industry,subindustry,one_liner,website,all_locations,t
 28858,CraftOS,craftos,Summer 2023,Inactive,B2B,B2B -> Retail,Inventory Management and POS for the Wine industry,http://craftos.com,"San Francisco, CA, USA; Remote",3,https://www.ycombinator.com/companies/craftos
 28838,GreenTally,greentally,Summer 2023,Inactive,B2B,B2B,Affordable carbon tracking solution for all businesses,,"San Francisco, CA, USA",2,https://www.ycombinator.com/companies/greentally
 29102,Kips Health,kips-health,Summer 2023,Inactive,Healthcare,Healthcare -> Consumer Health and Wellness,The only patient engagement software that pays you.,,"Los Angeles, CA, USA",2,https://www.ycombinator.com/companies/kips-health
-28743,Leafpress,leafpress,Summer 2023,Inactive,B2B,B2B,AI Energy Management,https://www.trycardinal.ai/,,2,https://www.ycombinator.com/companies/leafpress
+28743,Leafpress,leafpress,Summer 2023,Inactive,B2B,B2B,AI Energy Management,,,2,https://www.ycombinator.com/companies/leafpress
 28813,Lifelike,lifelike,Summer 2023,Inactive,Consumer,Consumer,,https://lifelike.app/,"San Francisco, CA, USA",2,https://www.ycombinator.com/companies/lifelike
 29089,Line.Build,line-build,Summer 2023,Inactive,B2B,B2B,Incentives and financing for energy efficiency upgrades,https://www.line.build/,"San Francisco, CA, USA; Seattle, WA, USA; Remote",3,https://www.ycombinator.com/companies/line-build
 28894,Lysto,lysto,Summer 2023,Inactive,B2B,B2B -> Sales,Revenue intelligence platforms for startups,https://lysto.ai/,"New York City, NY, USA",2,https://www.ycombinator.com/companies/lysto
@@ -283,7 +284,7 @@ id,name,slug,batch,status,industry,subindustry,one_liner,website,all_locations,t
 22712,GoBuild (fka Brick),gobuild-fka-brick,Winter 2021,Inactive,Fintech,Fintech -> Credit and Lending,The payments solution for small scale construction. ,,"San Francisco, CA, USA; Oakland, CA, USA; Remote",18,https://www.ycombinator.com/companies/gobuild-fka-brick
 22565,Gonddo,gonddo,Winter 2021,Inactive,B2B,B2B -> Retail,Wholesale marketplace for independent retailers buy & manage inventory,https://gonddo.com.br/,"São Paulo, SP, Brazil",6,https://www.ycombinator.com/companies/gonddo
 23242,HomeBreeze,homebreeze,Winter 2021,Inactive,Consumer,Consumer -> Home and Personal,The fastest and easiest way to make home upgrades,https://www.homebreeze.ai/,"San Francisco, CA, USA",45,https://www.ycombinator.com/companies/homebreeze
-22784,Huddlefire,huddlefire,Winter 2021,Inactive,B2B,B2B -> Marketing,Turbocharge customer acquisition through exclusive SaaS partnerships,https://www.huddlefire.com,"San Francisco, CA, USA; Remote",2,https://www.ycombinator.com/companies/huddlefire
+22784,Huddlefire,huddlefire,Winter 2021,Inactive,B2B,B2B -> Marketing,Turbocharge customer acquisition through exclusive SaaS partnerships,,"San Francisco, CA, USA; Remote",2,https://www.ycombinator.com/companies/huddlefire
 22944,Invoid,invoid,Winter 2021,Inactive,B2B,B2B,Create identity verification workflows the way you want,https://www.invoid.co/,"Gurugram, HR, India",15,https://www.ycombinator.com/companies/invoid
 22705,JoinSub,joinsub,Winter 2021,Inactive,Fintech,Fintech -> Payments,India's first aggregator and provider of local business subscriptions,https://joinsub.com,"Delhi, DL, India; Palo Alto, CA, USA; Remote",8,https://www.ycombinator.com/companies/joinsub
 22823,June,june,Winter 2021,Inactive,B2B,B2B -> Analytics,June is the new way to do product analytics,http://june.so,"San Francisco, CA, USA; Remote",6,https://www.ycombinator.com/companies/june
@@ -428,6 +429,7 @@ id,name,slug,batch,status,industry,subindustry,one_liner,website,all_locations,t
 29268,Mango Health,mango-health,Winter 2024,Inactive,Healthcare,Healthcare,AI Therapy for OCD,,,2,https://www.ycombinator.com/companies/mango-health
 29473,OddsView,oddsview,Winter 2024,Inactive,Consumer,Consumer,The Bloomberg Terminal of Sports Betting,https://oddsview.com,"New York City, NY, USA",5,https://www.ycombinator.com/companies/oddsview
 29285,Patchwork,patchwork,Winter 2024,Inactive,B2B,B2B -> Productivity,Your team’s AI powered communication tool,https://atpatchwork.com/,"San Francisco, CA, USA",2,https://www.ycombinator.com/companies/patchwork
+29332,Polished,polished,Winter 2024,Inactive,B2B,"B2B -> Engineering, Product and Design",Generate ads. Iterate till perfect.,https://polished.ad,"San Francisco, CA, USA",,https://www.ycombinator.com/companies/polished
 29375,Preloop,preloop,Winter 2024,Inactive,B2B,"B2B -> Engineering, Product and Design",Translate your experimental scripts into production ML services,https://www.preloop.com,"Seattle, WA, USA",2,https://www.ycombinator.com/companies/preloop
 29260,Quary,quary,Winter 2024,Inactive,B2B,B2B -> Analytics,The first in-browser analytics engineering platform,https://www.quary.dev,"London, England, United Kingdom",2,https://www.ycombinator.com/companies/quary
 29189,RadMate AI,radmate-ai,Winter 2024,Inactive,Healthcare,Healthcare,Copilot for radiologists,https://www.radmate.ai,"San Francisco, CA, USA",2,https://www.ycombinator.com/companies/radmate-ai
